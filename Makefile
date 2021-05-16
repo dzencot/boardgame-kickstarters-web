@@ -2,7 +2,7 @@ install:
 	npm ci
 
 start:
-	npm start
+	NODE_ENV=dev npm start
 
 lint:
 	npm run lint

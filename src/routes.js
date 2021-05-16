@@ -1,12 +1,14 @@
 // @ts-check
 
-const apiPath = '/api/v1';
+const apiPath = process.env.REACT_APP_API_URL;
 
 export default { // eslint-disable-line
-  loginPath: () => [apiPath, 'login'].join('/'),
-  signupPath: () => [apiPath, 'signup'].join('/'),
+  loginPath: () => [apiPath, 'auth', 'local'].join('/'),
+  signupPath: () => [apiPath, 'auth', 'local', 'register'].join('/'),
   dataPath: () => [apiPath, 'data'].join('/'),
   mainPagePath: () => '/',
   loginPagePath: () => '/login',
   signupPagePath: () => '/signup',
+  boardgamePath: () => [apiPath, 'boardgame'].join('/'),
+  kickstartersPath: () => [apiPath, 'kickstarters'].join('/'),
 };

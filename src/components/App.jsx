@@ -33,7 +33,7 @@ const AuthProvider = ({ children }) => {
   const getAuthHeader = () => {
     const userData = JSON.parse(localStorage.getItem('user'));
 
-    return userData?.token ? { Authorization: `Bearer ${userData.token}` } : {};
+    return userData?.jwt ? { Authorization: `Bearer ${userData.jwt}` } : {};
   };
 
   return (
@@ -82,4 +82,3 @@ const App = () => (
 );
 
 export default App;
-

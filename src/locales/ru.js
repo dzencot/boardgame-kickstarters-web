@@ -21,5 +21,21 @@ export default {
       alreadyExists: 'Такой пользователь уже существует',
       submit: 'Зарегистрироваться',
     },
+    mainPage: {
+      title: 'Заказы на кикстартере',
+      addKickstarter: 'Добавить кикстартер',
+    },
+    modals: {
+      addKickstarter: 'Добавить кикстартер?',
+      cancel: 'Отменить',
+      submit: 'Добавить',
+      confirmation: 'Действительно хотите это сделать?',
+      confirm: 'Подтвердить',
+      remove: 'Удаление',
+    },
+    kickstarter: {
+      remove: 'Удалить кикстартер',
+      edit: 'Редактировать кикстартер',
+    },
   },
 };

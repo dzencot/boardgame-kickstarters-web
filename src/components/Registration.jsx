@@ -52,10 +52,10 @@ const Registration = () => {
       try {
         const res = await axios.post(
           routes.signupPath(),
-          { username: values.username, password: values.password },
+          { username: values.username, email: values.username, password: values.password },
         );
         auth.logIn(res.data);
-        history.push(routes.chatPagePath());
+        history.push(routes.mainPagePath());
       } catch (err) {
         if (!err.isAxiosError) {
           throw err;

@@ -21,5 +21,21 @@ export default {
       alreadyExists: 'Username already taken',
       submit: 'Submit',
     },
+    mainPage: {
+      title: 'Kikstarters',
+      addKickstarter: 'Add kickstarter',
+    },
+    modals: {
+      addKickstarter: 'Add kickstarter?',
+      cancel: 'Cancel',
+      submit: 'Submit',
+      confirmation: 'Are you sure?',
+      confirm: 'Confirm',
+      remove: 'Delete',
+    },
+    kickstarter: {
+      remove: 'Remove kickstarter',
+      edit: 'Edit kickstarter',
+    },
   },
 };

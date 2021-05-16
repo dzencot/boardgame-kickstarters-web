@@ -29,7 +29,11 @@ const Login = () => {
       setAuthFailed(false);
 
       try {
-        const res = await axios.post(routes.loginPath(), values);
+        const res = await axios.post(routes.loginPath(),
+          {
+            identifier: values.username,
+            password: values.password,
+          });
         auth.logIn(res.data);
         const { from } = location.state || { from: { pathname: routes.chatPagePath() } };
         history.replace(from);
