@@ -31,7 +31,6 @@ const Kickstarter = ({
       </Dropdown>
     </li>
   );
-
 };
 
 const MainPage = () => {
@@ -39,7 +38,6 @@ const MainPage = () => {
   const { t } = useTranslation();
   const [fetching, setFetching] = useState(true);
   const history = useHistory();
-
 
   const { kickstarters } = useSelector((state) => {
     console.log(state);
