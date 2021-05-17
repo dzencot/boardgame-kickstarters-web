@@ -11,6 +11,7 @@ import Modal from './Modal.jsx';
 import { actions } from '../slices/index.js';
 import routes from '../routes.js';
 import getAuthToken from '../lib/auth.js';
+import kickService from '../lib/kickstarters.js';
 
 const Kickstarter = ({
   kickstarter,
@@ -19,7 +20,7 @@ const Kickstarter = ({
 }) => {
   const { t } = useTranslation();
 
-  const previewUrl = `${routes.apiPath()}${kickstarter.preview.url}`;
+  const previewUrl = `${routes.apiPath()}${kickstarter.image_med.url}`;
 
   return (
     <div key={kickstarter.id} className="d-flex flex-column align-items-center mb-3">
@@ -56,6 +57,15 @@ const MainPage = () => {
   };
   const handleEditKikstarter = (kickstarterId) => () => {
     dispatch(actions.openModal({ type: 'editKikstarter', extra: { kickstarterId } }));
+  };
+
+  const handleAddKickstarters = () => {
+    axios.get('/boardgames.json').then((boardgamesData) => {
+      const parsed = kickService.parseKickstartersJson(boardgamesData.data);
+      kickService.uploadResources(parsed).then((result) => {
+        console.log(result);
+      });
+    });
   };
 
   useEffect(() => {
@@ -103,7 +113,7 @@ const MainPage = () => {
             type="button"
             variant="link"
             className="ml-auto p-0"
-            onClick={handleAddKikstarter}
+            onClick={handleAddKickstarters}
           >
             {t('mainPage.addKickstarter')}
           </Button>

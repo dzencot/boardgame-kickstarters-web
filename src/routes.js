@@ -12,4 +12,5 @@ export default { // eslint-disable-line
   boardgamePath: () => [apiPath, 'boardgame'].join('/'),
   kickstartersPath: () => [apiPath, 'kickstarters'].join('/'),
   apiPath: () => apiPath,
+  uploadImagePath: () => [apiPath, 'upload'].join('/'),
 };
