@@ -1,7 +1,7 @@
 // @ts-check
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Button, Dropdown, ButtonGroup } from 'react-bootstrap';
+import { Button, Dropdown, ButtonGroup, Image } from 'react-bootstrap';
 import Spinner from 'react-bootstrap/Spinner';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router-dom';
@@ -19,17 +19,20 @@ const Kickstarter = ({
 }) => {
   const { t } = useTranslation();
 
+  const previewUrl = `${routes.apiPath()}${kickstarter.preview.url}`;
+
   return (
-    <li key={kickstarter.id} className="nav-item">
-      <Dropdown as={ButtonGroup} className="d-flex mb-2">
-        {kickstarter.title}
-        <Dropdown.Toggle split className="flex-grow-0" />
-        <Dropdown.Menu>
-          <Dropdown.Item onClick={handleRemove(kickstarter.id)}>{t('kickstarter.remove')}</Dropdown.Item>
-          <Dropdown.Item onClick={handleEdit(kickstarter.id)}>{t('kickstarter.edit')}</Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
-    </li>
+    <div key={kickstarter.id} className="d-flex flex-column align-items-center mb-3">
+      <div className="p-2">
+        <span>{kickstarter.title}</span>
+      </div>
+      <div className="p-2">
+        <Image src={previewUrl} />
+      </div>
+      <div className="p-2">
+        <span>{kickstarter.start_date} - {kickstarter.finish_date}</span>
+      </div>
+    </div>
   );
 };
 
@@ -106,7 +109,7 @@ const MainPage = () => {
           </Button>
         </div>
         <Modal />
-        <ul className="nav flex-column nav-pills nav-fill">
+        <main className="bg-info">
           {kickstarters.map((kickstarter) => (
             <Kickstarter
               key={kickstarter.id}
@@ -115,8 +118,7 @@ const MainPage = () => {
               handleEdit={handleEditKikstarter}
             />
           ))}
-        </ul>
-
+        </main>
       </>
     );
 };

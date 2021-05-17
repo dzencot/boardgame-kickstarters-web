@@ -1,0 +1,1570 @@
+{
+  "projects": [
+    {
+      "id": 441057452,
+      "photo": {
+        "key": "assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg",
+        "full": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=6371e80b549409e4183cb53d35492c23",
+        "ed": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=f5a70ec898211facac0a6e2d389c0056",
+        "med": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=738a1f6f26aadabbca64874252a5a7c4",
+        "little": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=c543f9bd648ee7dae125b275147ece01",
+        "small": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=623232189ed6ddd5906f28751a257fce",
+        "thumb": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=f00391c67d6f6874a4d350106e539ad8",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=2a1dd656b6c4a8e47df1771d67378a2a",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=ae11efe8cf2f53ed91a07300502f4f65"
+      },
+      "name": "Wars of Ozz, Wave 2",
+      "blurb": "Wave 2: three new armies for the Wars of Ozz blackpowder mass fantasy battle game plus the strategic boardgame",
+      "goal": 2000.0,
+      "pledged": 4302.0,
+      "state": "live",
+      "slug": "wars-of-ozz-wave-2",
+      "disable_communication": false,
+      "country": "GB",
+      "country_displayable_name": "the United Kingdom",
+      "currency": "GBP",
+      "currency_symbol": "£",
+      "currency_trailing_code": false,
+      "deadline": 1621601857,
+      "state_changed_at": 1620392259,
+      "created_at": 1619638151,
+      "launched_at": 1620392257,
+      "staff_pick": false,
+      "is_starrable": true,
+      "backers_count": 38,
+      "static_usd_rate": 1.38952575,
+      "usd_pledged": "5977.7397765",
+      "converted_pledged_amount": 6060,
+      "fx_rate": 1.40867689,
+      "usd_exchange_rate": 1.40867689,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 179272384,
+        "name": "Chris Abbey @ Sally 4th",
+        "slug": "blackstone",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/010/366/868/2c5e6f261807078c647371d476b624c4_original.jpg?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1477403688&auto=format&frame=1&q=92&s=8a5b993e46977c9a852f73b8009ed16b",
+          "small": "https://ksr-ugc.imgix.net/assets/010/366/868/2c5e6f261807078c647371d476b624c4_original.jpg?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1477403688&auto=format&frame=1&q=92&s=ca906cef784f301ce7aeb3c0a9b18256",
+          "medium": "https://ksr-ugc.imgix.net/assets/010/366/868/2c5e6f261807078c647371d476b624c4_original.jpg?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1477403688&auto=format&frame=1&q=92&s=c1d68e28686ea4e99106ec2ee56e1a54"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/blackstone"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/179272384?signature=1621351534.9c5ba3ea2a393d7ad9075c0dd6d3a6f0460cb0c1"
+          }
+        }
+      },
+      "location": {
+        "id": 12602195,
+        "name": "North Yorkshire",
+        "slug": "north-yorkshire-gb",
+        "short_name": "North Yorkshire, UK",
+        "displayable_name": "North Yorkshire, UK",
+        "localized_name": "North Yorkshire",
+        "country": "GB",
+        "state": "England",
+        "type": "County",
+        "is_root": false,
+        "expanded_country": "United Kingdom",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/north-yorkshire-gb",
+            "location": "https://www.kickstarter.com/locations/north-yorkshire-gb"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621328520.9c0704e32c8844b5ace070c595e9371e5970680a&woe_id=12602195"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 4207685,
+        "project_id": 4207685,
+        "state": "inactive",
+        "state_changed_at": 1619638151,
+        "name": null,
+        "blurb": null,
+        "background_color": null,
+        "text_color": null,
+        "link_background_color": null,
+        "link_text_color": null,
+        "link_text": null,
+        "link_url": null,
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=ae11efe8cf2f53ed91a07300502f4f65",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/033/330/235/2511201629726cf70b7daa391a191e41_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1619714816&auto=format&frame=1&q=92&s=6371e80b549409e4183cb53d35492c23"
+          }
+        }
+      },
+      "spotlight": false,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/blackstone/wars-of-ozz-wave-2?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/blackstone/wars-of-ozz-wave-2/rewards"
+        }
+      }
+    },
+    {
+      "id": 1547074962,
+      "photo": {
+        "key": "assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png",
+        "full": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=1fd14eed048c8518477567ba7964f972",
+        "ed": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=62dba0b8de8afe41728c96a284014026",
+        "med": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=9f5e3634952165b0cdaafbcf21d25991",
+        "little": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=f3f6bb6aa3b3e6b6d9be03a4b539a9ed",
+        "small": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=17a9aa493bc1bac4f1dd2cecf74b8de0",
+        "thumb": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=fe2992745d231106e317e728e5f794ac",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=217bf0fe04c4c4130754a582c182c445",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=eccfc7614b6067f74e0d7586699793f4"
+      },
+      "name": "Skyline Express",
+      "blurb": "A beautiful, family friendly boardgame about tile laying and pattern building. Tons of replayability and a robust solo mode.",
+      "goal": 15000.0,
+      "pledged": 14567.0,
+      "state": "live",
+      "slug": "skyline-express-0",
+      "disable_communication": false,
+      "country": "PL",
+      "country_displayable_name": "Poland",
+      "currency": "EUR",
+      "currency_symbol": "€",
+      "currency_trailing_code": false,
+      "deadline": 1622646019,
+      "state_changed_at": 1620054021,
+      "created_at": 1615754466,
+      "launched_at": 1620054019,
+      "staff_pick": false,
+      "is_starrable": true,
+      "backers_count": 322,
+      "static_usd_rate": 1.20199531,
+      "usd_pledged": "17509.46568077",
+      "converted_pledged_amount": 17672,
+      "fx_rate": 1.21317263,
+      "usd_exchange_rate": 1.21317263,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 793960152,
+        "name": "Thistroy Games",
+        "slug": "thistroygames",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/024/336/976/08196e25337d1eb85fa4807582ac88b2_original.jpg?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1551991900&auto=format&frame=1&q=92&s=cd30f08d9f59edd89b007b583fe499c8",
+          "small": "https://ksr-ugc.imgix.net/assets/024/336/976/08196e25337d1eb85fa4807582ac88b2_original.jpg?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1551991900&auto=format&frame=1&q=92&s=9767239503180f298057bca1fb2dcb55",
+          "medium": "https://ksr-ugc.imgix.net/assets/024/336/976/08196e25337d1eb85fa4807582ac88b2_original.jpg?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1551991900&auto=format&frame=1&q=92&s=e1cac0efb5e61831cc9982fb39a03590"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/thistroygames"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/793960152?signature=1621351534.d3dda3cbdfed5c72b81fa3354f65b74d67bf5fde"
+          }
+        }
+      },
+      "location": {
+        "id": 498842,
+        "name": "Katowice",
+        "slug": "katowice-katowice-pl",
+        "short_name": "Katowice, Poland",
+        "displayable_name": "Katowice, Poland",
+        "localized_name": "Katowice",
+        "country": "PL",
+        "state": "Silesian",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "Poland",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/katowice-katowice-pl",
+            "location": "https://www.kickstarter.com/locations/katowice-katowice-pl"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621329036.1e1d12e8e29a57c886613eb3044d75411266135e&woe_id=498842"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 4181420,
+        "project_id": 4181420,
+        "state": "inactive",
+        "state_changed_at": 1615754466,
+        "name": null,
+        "blurb": null,
+        "background_color": null,
+        "text_color": null,
+        "link_background_color": null,
+        "link_text_color": null,
+        "link_text": null,
+        "link_url": null,
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=eccfc7614b6067f74e0d7586699793f4",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/033/410/780/15179bf7e2c62dfe4175222ab5583c5b_original.png?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1620289605&auto=format&frame=1&q=92&s=1fd14eed048c8518477567ba7964f972"
+          }
+        }
+      },
+      "spotlight": false,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/thistroygames/skyline-express-0?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/thistroygames/skyline-express-0/rewards"
+        }
+      }
+    },
+    {
+      "id": 1802302739,
+      "photo": {
+        "key": "assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg",
+        "full": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=2f0a84e315b9615b09e27b064a2cbaa7",
+        "ed": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=bc978ad93cf319c40245ee00610fb1fe",
+        "med": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=1d23646e9d9ecf7e8c1129450339763a",
+        "little": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=9df3a9df155a41a486168e7d6aef49cc",
+        "small": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=059046644ba6c2e8cbbe010a9fba168b",
+        "thumb": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=1058a14b622351dc7b80046d6a1d002b",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=2014720465b19e2e889efd66d86752e1",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=71521d7b1734871a3f4ec99bb28e00d1"
+      },
+      "name": "Catch Don Falconi",
+      "blurb": "A fast-paced, chili-peppered boardgame.\nWith tactics, cunning and hot chili, Don Falconi tries to escape the police!",
+      "goal": 10000.0,
+      "pledged": 19172.0,
+      "state": "live",
+      "slug": "catch-don-falconi",
+      "disable_communication": false,
+      "country": "CH",
+      "country_displayable_name": "Switzerland",
+      "currency": "CHF",
+      "currency_symbol": "Fr ",
+      "currency_trailing_code": false,
+      "deadline": 1622149140,
+      "state_changed_at": 1619524800,
+      "created_at": 1599549925,
+      "launched_at": 1619524798,
+      "staff_pick": false,
+      "is_starrable": true,
+      "backers_count": 317,
+      "static_usd_rate": 1.09579914,
+      "usd_pledged": "21008.66111208",
+      "converted_pledged_amount": 21250,
+      "fx_rate": 1.10843486,
+      "usd_exchange_rate": 1.10843486,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 1516450021,
+        "name": "Stephan Mosele",
+        "slug": "donfalconi",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/032/308/517/623f0dfea85ca5623f40fe12fadf80be_original.PNG?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1619186690&auto=format&frame=1&q=92&s=09e0c1a3ce50d4323e41f991c8441eec",
+          "small": "https://ksr-ugc.imgix.net/assets/032/308/517/623f0dfea85ca5623f40fe12fadf80be_original.PNG?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1619186690&auto=format&frame=1&q=92&s=faac19fd354360eb5b84e247c1f87ca4",
+          "medium": "https://ksr-ugc.imgix.net/assets/032/308/517/623f0dfea85ca5623f40fe12fadf80be_original.PNG?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1619186690&auto=format&frame=1&q=92&s=35933669a55d72bf55c473c1dd35b72b"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/donfalconi"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/1516450021?signature=1621351534.6a2c5e0255e74d7b166b66699851788cb39bef01"
+          }
+        }
+      },
+      "location": {
+        "id": 784316,
+        "name": "Steinhausen",
+        "slug": "steinhausen-steinhausen-ch",
+        "short_name": "Steinhausen, Switzerland",
+        "displayable_name": "Steinhausen, Switzerland",
+        "localized_name": "Steinhausen",
+        "country": "CH",
+        "state": "Canton of Zug",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "Switzerland",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/steinhausen-steinhausen-ch",
+            "location": "https://www.kickstarter.com/locations/steinhausen-steinhausen-ch"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621328454.dc4df91bb111066ce24e9b5f3234adf7523ea2d3&woe_id=784316"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 4066986,
+        "project_id": 4066986,
+        "state": "inactive",
+        "state_changed_at": 1599549925,
+        "name": null,
+        "blurb": null,
+        "background_color": null,
+        "text_color": null,
+        "link_background_color": null,
+        "link_text_color": null,
+        "link_text": null,
+        "link_url": null,
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=71521d7b1734871a3f4ec99bb28e00d1",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/033/314/954/8ff216033d09036cc5fae69b13272d70_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1619625942&auto=format&frame=1&q=92&s=2f0a84e315b9615b09e27b064a2cbaa7"
+          }
+        }
+      },
+      "spotlight": false,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/donfalconi/catch-don-falconi?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/donfalconi/catch-don-falconi/rewards"
+        }
+      }
+    },
+    {
+      "id": 12288014,
+      "photo": {
+        "key": "assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg",
+        "full": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=63d02f35072f32e7ab8ed41606d6ba77",
+        "ed": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=115c586217832ae111671f8616107564",
+        "med": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=4735348f4d6ce6d0b95778cbbf5c2575",
+        "little": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=0e1e889a04ef975786f6a2a9307f4380",
+        "small": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=543d99e6f82a77be816b9990d379cca6",
+        "thumb": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=27927e03433ce3311f1961dd0c757d7c",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=9938b96844c3473fc85fc8fa1f37a0e2",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=871357029d3ee80ef6aef153c54b0ae8"
+      },
+      "name": "Ice Cream Dice",
+      "blurb": "Ice Cream themed dice for your favorite RPG or boardgame. Ice Cream Dice brings your favorite ice cream flavors to your gaming table.",
+      "goal": 30000.0,
+      "pledged": 136056.29,
+      "state": "successful",
+      "slug": "ice-cream-dice",
+      "disable_communication": false,
+      "country": "CA",
+      "country_displayable_name": "Canada",
+      "currency": "CAD",
+      "currency_symbol": "$",
+      "currency_trailing_code": true,
+      "deadline": 1551970910,
+      "state_changed_at": 1551970910,
+      "created_at": 1544337058,
+      "launched_at": 1549378910,
+      "staff_pick": false,
+      "is_starrable": false,
+      "backers_count": 3394,
+      "static_usd_rate": 0.76315139,
+      "usd_pledged": "103831.5468317431",
+      "converted_pledged_amount": 101213,
+      "fx_rate": 0.82427999,
+      "usd_exchange_rate": 0.7439098,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 1850151997,
+        "name": "Marc Schubert",
+        "slug": "icecreamdice",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/007/697/360/2837434af19e7d1ab0dd8fd78e7035b0_original.jpg?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1461473659&auto=format&frame=1&q=92&s=391c82a0ac1d1fde437fa5394dd95821",
+          "small": "https://ksr-ugc.imgix.net/assets/007/697/360/2837434af19e7d1ab0dd8fd78e7035b0_original.jpg?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1461473659&auto=format&frame=1&q=92&s=7e5a9b0a62d6b8fc2cf2bcb905e84d7f",
+          "medium": "https://ksr-ugc.imgix.net/assets/007/697/360/2837434af19e7d1ab0dd8fd78e7035b0_original.jpg?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1461473659&auto=format&frame=1&q=92&s=307a4ee5f3ac63b5d39b38fffe964a69"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/icecreamdice"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/1850151997?signature=1621351534.01558ed89dbc385c13acc5b2dbe936ee875bb7d1"
+          }
+        }
+      },
+      "location": {
+        "id": 8676,
+        "name": "Edmonton",
+        "slug": "edmonton-ca",
+        "short_name": "Edmonton, Canada",
+        "displayable_name": "Edmonton, Canada",
+        "localized_name": "Edmonton",
+        "country": "CA",
+        "state": "AB",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "Canada",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/edmonton-ca",
+            "location": "https://www.kickstarter.com/locations/edmonton-ca"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621328262.bf8867db560a40bdfba0953289962e61a89b9045&woe_id=8676"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 3531774,
+        "project_id": 3531774,
+        "state": "active",
+        "state_changed_at": 1551984147,
+        "name": "Ice Cream Dice",
+        "blurb": "Ice Cream themed dice for your favorite RPG or boardgame. Ice Cream Dice brings your favorite ice cream flavors to your gaming table.",
+        "background_color": "f8bdd9",
+        "text_color": "ffffff",
+        "link_background_color": "f1b4db",
+        "link_text_color": "4d2828",
+        "link_text": "More Ice Cream Dice",
+        "link_url": "http://icecreamdice.com",
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "background_image_attributes": {
+          "id": 24366503,
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/024/366/503/5d88a5bf773a5fc9e6c82b66724d530f_original.jpg?ixlib=rb-4.0.2&w=1600&fit=max&v=1552241759&auto=format&frame=1&q=92&s=f50c596aa49b870291b6c5b8edc42246",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/024/366/503/5d88a5bf773a5fc9e6c82b66724d530f_original.jpg?ixlib=rb-4.0.2&w=460&fit=max&v=1552241759&auto=format&frame=1&q=92&s=82c054e3e5e1bf4f9ad076932ce0904b"
+          }
+        },
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=871357029d3ee80ef6aef153c54b0ae8",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/024/005/898/06b2ba05405fe7222abf9658c3525f54_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1549434824&auto=format&frame=1&q=92&s=63d02f35072f32e7ab8ed41606d6ba77"
+          }
+        }
+      },
+      "spotlight": true,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/icecreamdice/ice-cream-dice?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/icecreamdice/ice-cream-dice/rewards"
+        }
+      }
+    },
+    {
+      "id": 1633257585,
+      "photo": {
+        "key": "assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg",
+        "full": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=9a1227ce167dc0a45b00b805b29110f4",
+        "ed": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=05944c9a523e08386d1a71e5eed07e5f",
+        "med": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=01a3d7aa6cf444c46b8a671bf0f1acbe",
+        "little": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=49b083c49f57fa4d6040bdb298160918",
+        "small": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=a059f90ecb53f994ff8eb16e341f362c",
+        "thumb": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=8b907af6f9a77d86eb78d75de75af4ee",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=3c78e45779cd36b4602c91be194083d5",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=49c0382303adb41fc445b4c7f403fbee"
+      },
+      "name": "The Storymaster's Tales : LIVE Quests",
+      "blurb": "Online LIVE interactive fantasy game-theatre shows. Bringing the Storymaster's Tales roleplaying boardgame to life.",
+      "goal": 100.0,
+      "pledged": 259.0,
+      "state": "successful",
+      "slug": "the-storymasters-tales-live-quests",
+      "disable_communication": false,
+      "country": "GB",
+      "country_displayable_name": "the United Kingdom",
+      "currency": "GBP",
+      "currency_symbol": "£",
+      "currency_trailing_code": false,
+      "deadline": 1600210560,
+      "state_changed_at": 1600210560,
+      "created_at": 1598688129,
+      "launched_at": 1599562676,
+      "staff_pick": false,
+      "is_starrable": false,
+      "backers_count": 12,
+      "static_usd_rate": 1.32439455,
+      "usd_pledged": "343.01818845",
+      "converted_pledged_amount": 332,
+      "fx_rate": 1.40867689,
+      "usd_exchange_rate": 1.28565111,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 407149085,
+        "name": "Oliver McNeil",
+        "slug": "legendphotography",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/007/167/739/e8fdf4de9cae5db403befc67d867df96_original.jpg?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1599416999&auto=format&frame=1&q=92&s=3d0ab9332eba7a62b34f3d9826317a08",
+          "small": "https://ksr-ugc.imgix.net/assets/007/167/739/e8fdf4de9cae5db403befc67d867df96_original.jpg?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1599416999&auto=format&frame=1&q=92&s=0d4936169b56947dcb4c4e3339855b94",
+          "medium": "https://ksr-ugc.imgix.net/assets/007/167/739/e8fdf4de9cae5db403befc67d867df96_original.jpg?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1599416999&auto=format&frame=1&q=92&s=4ad46738dd9892987c5d82c0074d7435"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/legendphotography"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/407149085?signature=1621351534.325c41092ba51ad866bf7d353b916b26bca028ac"
+          }
+        }
+      },
+      "location": {
+        "id": 33832,
+        "name": "Rye",
+        "slug": "rye-gb",
+        "short_name": "Rye, UK",
+        "displayable_name": "Rye, UK",
+        "localized_name": "Rye",
+        "country": "GB",
+        "state": "England",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "United Kingdom",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/rye-gb",
+            "location": "https://www.kickstarter.com/locations/rye-gb"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621332077.37d08c505704bb9f3ff8d08a33bcfbeb4bdddaea&woe_id=33832"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 4061073,
+        "project_id": 4061073,
+        "state": "inactive",
+        "state_changed_at": 1598688129,
+        "name": null,
+        "blurb": null,
+        "background_color": null,
+        "text_color": null,
+        "link_background_color": null,
+        "link_text_color": null,
+        "link_text": null,
+        "link_url": null,
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=49c0382303adb41fc445b4c7f403fbee",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/030/495/475/76b1d8b5ecf3c153c044cb8358a29ec5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1599416496&auto=format&frame=1&q=92&s=9a1227ce167dc0a45b00b805b29110f4"
+          }
+        }
+      },
+      "spotlight": true,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/legendphotography/the-storymasters-tales-live-quests?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/legendphotography/the-storymasters-tales-live-quests/rewards"
+        }
+      }
+    },
+    {
+      "id": 803926726,
+      "photo": {
+        "key": "assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg",
+        "full": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=22973f4ab6254bf7d47179040ab01a9d",
+        "ed": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=a1da7448c309d5aa338aa99a5ce4d28e",
+        "med": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=e8ed3ff00254c8880b3ee316a492734a",
+        "little": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=ad9c19c235ee3143c2ebe4b1dede41f7",
+        "small": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=84912bb624c6f74a58ea050ae06fa1b9",
+        "thumb": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=85ad7e727efe96d470fe0cbb91b4a06f",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=520a85752ab2c5a2c6c1d74ebec9c89e",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=2d5c1526b18ca9f7947c5282bfe80820"
+      },
+      "name": "Dead Men Tell No Tales",
+      "blurb": "A cooperative boardgame of looting a burning ship for 2-5 players.",
+      "goal": 15500.0,
+      "pledged": 68918.0,
+      "state": "successful",
+      "slug": "dead-men-tell-no-tales",
+      "disable_communication": false,
+      "country": "US",
+      "country_displayable_name": "the United States",
+      "currency": "USD",
+      "currency_symbol": "$",
+      "currency_trailing_code": true,
+      "deadline": 1410836400,
+      "state_changed_at": 1410836410,
+      "created_at": 1400690779,
+      "launched_at": 1408448899,
+      "staff_pick": true,
+      "is_starrable": false,
+      "backers_count": 1747,
+      "static_usd_rate": 1.0,
+      "usd_pledged": "68918.0",
+      "converted_pledged_amount": 68918,
+      "fx_rate": 1.0,
+      "usd_exchange_rate": 1.0,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 2085084670,
+        "name": "Minion Games",
+        "slug": "miniongames",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/006/032/809/1f369fad36aa0315681806f4e3079343_original.jpg?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1461362120&auto=format&frame=1&q=92&s=6822cb24955353c06dcdfdb571871188",
+          "small": "https://ksr-ugc.imgix.net/assets/006/032/809/1f369fad36aa0315681806f4e3079343_original.jpg?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1461362120&auto=format&frame=1&q=92&s=f0f67d3c3d0fc6b269414bb0054b04bc",
+          "medium": "https://ksr-ugc.imgix.net/assets/006/032/809/1f369fad36aa0315681806f4e3079343_original.jpg?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1461362120&auto=format&frame=1&q=92&s=0af40f30ba926b1d88e33eaa568599ed"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/miniongames"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/2085084670?signature=1621351534.752f81776badf2fec54e069cbd8e5979e6ae837d"
+          }
+        }
+      },
+      "location": {
+        "id": 2451822,
+        "name": "Milwaukee",
+        "slug": "milwaukee-wi",
+        "short_name": "Milwaukee, WI",
+        "displayable_name": "Milwaukee, WI",
+        "localized_name": "Milwaukee",
+        "country": "US",
+        "state": "WI",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "United States",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/milwaukee-wi",
+            "location": "https://www.kickstarter.com/locations/milwaukee-wi"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621328256.d16fd393f009e5e672cbbb7fcd56d2cec95696ac&woe_id=2451822"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 1033234,
+        "project_id": 1033234,
+        "state": "active",
+        "state_changed_at": 1428627629,
+        "name": "Dead Men Tell No Tales",
+        "blurb": "A cooperative boardgame of looting a burning ship for 2-5 players.",
+        "background_color": "",
+        "text_color": "",
+        "link_background_color": "",
+        "link_text_color": "",
+        "link_text": "Pre-Order w/Promo",
+        "link_url": "http://www.miniongames.com/store/dead-men-tell-no-tales.html",
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=2d5c1526b18ca9f7947c5282bfe80820",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/011/709/925/c4964c9c82c8e15991be00fe6352a17a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1463687092&auto=format&frame=1&q=92&s=22973f4ab6254bf7d47179040ab01a9d"
+          }
+        }
+      },
+      "spotlight": true,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/miniongames/dead-men-tell-no-tales?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/miniongames/dead-men-tell-no-tales/rewards"
+        }
+      }
+    },
+    {
+      "id": 324152180,
+      "photo": {
+        "key": "assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png",
+        "full": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=f21de505133a26c33fc2e318ea0a6c2f",
+        "ed": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=2185ac160831f4a1644222692cd13689",
+        "med": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=f052015dc6b54f2ff5a2943ed08602e9",
+        "little": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=362b1385eaa0fcabfead662ce4fa7f64",
+        "small": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=74af21848af050d5a4d8c6403a315a66",
+        "thumb": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=5ac050230bb408c38f30d0a0fe21b955",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=56728f50f8f665452fcf650715fd2260",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=ceeee470be26f25996efbe9f79e97c43"
+      },
+      "name": "BoardGames with Niramas 2019",
+      "blurb": "Youtube videos of Board and Card games. Gameplay Runthroughs, Full Playthroughs, Unboxings, Top 10 lists, Convention coverage and more.",
+      "goal": 15000.0,
+      "pledged": 23978.71,
+      "state": "successful",
+      "slug": "boardgames-with-niramas-2019",
+      "disable_communication": false,
+      "country": "SE",
+      "country_displayable_name": "Sweden",
+      "currency": "SEK",
+      "currency_symbol": "kr",
+      "currency_trailing_code": true,
+      "deadline": 1560705274,
+      "state_changed_at": 1560705274,
+      "created_at": 1558100046,
+      "launched_at": 1558113274,
+      "staff_pick": false,
+      "is_starrable": false,
+      "backers_count": 72,
+      "static_usd_rate": 0.10412411,
+      "usd_pledged": "2496.7618376981",
+      "converted_pledged_amount": 2527,
+      "fx_rate": 0.1199072,
+      "usd_exchange_rate": 0.10538851,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 1760957823,
+        "name": "Boardgames with Niramas",
+        "slug": "bgwniramas",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/020/950/900/6696ee6d38516ef01210a56d747361d1_original.jpg?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1524187222&auto=format&frame=1&q=92&s=b432d8249ecf8b334071af2dbebf8332",
+          "small": "https://ksr-ugc.imgix.net/assets/020/950/900/6696ee6d38516ef01210a56d747361d1_original.jpg?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1524187222&auto=format&frame=1&q=92&s=27164d1d31b2e7d8e2a5d93d452247f0",
+          "medium": "https://ksr-ugc.imgix.net/assets/020/950/900/6696ee6d38516ef01210a56d747361d1_original.jpg?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1524187222&auto=format&frame=1&q=92&s=0cf13b2f0930f23c471af6b6d53d0328"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/bgwniramas"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/1760957823?signature=1621351534.167732a752f6875f3086f446a164b7ca92c5ed6b"
+          }
+        }
+      },
+      "location": {
+        "id": 908376,
+        "name": "Uddevalla",
+        "slug": "uddevalla-se",
+        "short_name": "Uddevalla, Sweden",
+        "displayable_name": "Uddevalla, Sweden",
+        "localized_name": "Uddevalla",
+        "country": "SE",
+        "state": "Vastra Gotaland",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "Sweden",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/uddevalla-se",
+            "location": "https://www.kickstarter.com/locations/uddevalla-se"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621313039.be3f66361b0c873edf11312d72dba419cd2c0848&woe_id=908376"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 3734259,
+        "project_id": 3734259,
+        "state": "inactive",
+        "state_changed_at": 1558100046,
+        "name": null,
+        "blurb": null,
+        "background_color": null,
+        "text_color": null,
+        "link_background_color": null,
+        "link_text_color": null,
+        "link_text": null,
+        "link_url": null,
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=ceeee470be26f25996efbe9f79e97c43",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/025/174/445/31a4c14defce1e46aefe1b94d42d80a5_original.png?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1558100361&auto=format&frame=1&q=92&s=f21de505133a26c33fc2e318ea0a6c2f"
+          }
+        }
+      },
+      "spotlight": true,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/bgwniramas/boardgames-with-niramas-2019?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/bgwniramas/boardgames-with-niramas-2019/rewards"
+        }
+      }
+    },
+    {
+      "id": 691304001,
+      "photo": {
+        "key": "assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png",
+        "full": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=d13940fe728fd781013e22f28f5eda22",
+        "ed": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=df43a30b9562e1752f9eb8a716e2fefc",
+        "med": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=d858ea2146f13ed93c3fa078679ee829",
+        "little": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=e49765f273a4f29d8076a214bcf1e0e8",
+        "small": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=6caca64bb9583c5f8ca991cdee715278",
+        "thumb": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=1b9fd6a2b2020fe39ef345545d464a6f",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=bcdf0393f6579ecae7ce0b67a5449d27",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=2947daef743526f272e1f8e470c205bb"
+      },
+      "name": "Crokinole | Wood tabletop game with built-in chip storage",
+      "blurb": "Great tabletop boardgame to enjoy with friends or family. Crokinole has been a social centerpiece in Canada as long as it has existed.",
+      "goal": 6000.0,
+      "pledged": 9775.0,
+      "state": "successful",
+      "slug": "crokinole-wood-tabletop-game-with-built-in-chip-st",
+      "disable_communication": false,
+      "country": "CA",
+      "country_displayable_name": "Canada",
+      "currency": "CAD",
+      "currency_symbol": "$",
+      "currency_trailing_code": true,
+      "deadline": 1511323200,
+      "state_changed_at": 1511323200,
+      "created_at": 1489452925,
+      "launched_at": 1508425378,
+      "staff_pick": false,
+      "is_starrable": false,
+      "backers_count": 54,
+      "static_usd_rate": 0.79988162,
+      "usd_pledged": "7818.8428355",
+      "converted_pledged_amount": 7631,
+      "fx_rate": 0.82427999,
+      "usd_exchange_rate": 0.78071021,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 308247445,
+        "name": "Adam Eddy",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/018/759/485/dd8241fbe071f6e90c9e48cb75a48731_original.png?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1508076496&auto=format&frame=1&q=92&s=ab589da3b3877f749c4c14c07d439972",
+          "small": "https://ksr-ugc.imgix.net/assets/018/759/485/dd8241fbe071f6e90c9e48cb75a48731_original.png?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1508076496&auto=format&frame=1&q=92&s=1cec27d13c545d310bea7e0d903149d7",
+          "medium": "https://ksr-ugc.imgix.net/assets/018/759/485/dd8241fbe071f6e90c9e48cb75a48731_original.png?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1508076496&auto=format&frame=1&q=92&s=b162e98608e5a4a7eee4e97485039325"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/308247445"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/308247445?signature=1621351534.d21a0cc713713f58c4123d04a6c43d237dc51e8e"
+          }
+        }
+      },
+      "location": {
+        "id": 3696,
+        "name": "Woodstock",
+        "slug": "woodstock-nb-ca",
+        "short_name": "Woodstock, Canada",
+        "displayable_name": "Woodstock, Canada",
+        "localized_name": "Woodstock",
+        "country": "CA",
+        "state": "NB",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "Canada",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/woodstock-nb-ca",
+            "location": "https://www.kickstarter.com/locations/woodstock-nb-ca"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621343763.941a11905156bd3c97b6750f4c248eea7280100e&woe_id=3696"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 2918851,
+        "project_id": 2918851,
+        "state": "inactive",
+        "state_changed_at": 1489452925,
+        "name": null,
+        "blurb": null,
+        "background_color": null,
+        "text_color": null,
+        "link_background_color": null,
+        "link_text_color": null,
+        "link_text": null,
+        "link_url": null,
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=2947daef743526f272e1f8e470c205bb",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/016/502/942/89e5772ba89ec76007170679952a820c_original.png?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1508858265&auto=format&frame=1&q=92&s=d13940fe728fd781013e22f28f5eda22"
+          }
+        }
+      },
+      "spotlight": true,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/308247445/crokinole-wood-tabletop-game-with-built-in-chip-st?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/308247445/crokinole-wood-tabletop-game-with-built-in-chip-st/rewards"
+        }
+      }
+    },
+    {
+      "id": 1302123934,
+      "photo": {
+        "key": "assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg",
+        "full": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=876f3b80f6b591a9c345145fbd5b6430",
+        "ed": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=2ac3275aaaa6212e790bee35b4d58ef9",
+        "med": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=10fa86da6b7f13837be33a09937f173b",
+        "little": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=e5873206829701143a4ae08c46495621",
+        "small": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=0291c6c2560c483b24a9928a7a53f736",
+        "thumb": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=1b5a68450f29b1a7ecd48a39cee2486c",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=1d96bb428316af477327dc5f31780cd1",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=642d0bea424eff093f5120e245123d1d"
+      },
+      "name": "Incoming Transmission: CoOp Deduction Boardgame (plus App!)",
+      "blurb": "A Compact, Cooperative-Puzzle Tabletop Game with Turn-Based play modes & OPTIONAL Digital Companion App for Real-Time Modes!",
+      "goal": 5000.0,
+      "pledged": 7402.0,
+      "state": "successful",
+      "slug": "incoming-transmission-an-app-enhanced-deduction-bo",
+      "disable_communication": false,
+      "country": "US",
+      "country_displayable_name": "the United States",
+      "currency": "USD",
+      "currency_symbol": "$",
+      "currency_trailing_code": true,
+      "deadline": 1551243600,
+      "state_changed_at": 1551243600,
+      "created_at": 1546456382,
+      "launched_at": 1549541046,
+      "staff_pick": false,
+      "is_starrable": false,
+      "backers_count": 243,
+      "static_usd_rate": 1.0,
+      "usd_pledged": "7402.0",
+      "converted_pledged_amount": 7402,
+      "fx_rate": 1.0,
+      "usd_exchange_rate": 1.0,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 1503075391,
+        "name": "Magic Meeple Games",
+        "slug": "magicmeeplegames",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/006/752/112/182fabcbb884a6cad63ec1672d95bc1f_original.png?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1531415812&auto=format&frame=1&q=92&s=fafdc60219c02a3a863ea11ca7fcea79",
+          "small": "https://ksr-ugc.imgix.net/assets/006/752/112/182fabcbb884a6cad63ec1672d95bc1f_original.png?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1531415812&auto=format&frame=1&q=92&s=f0506a0c7d1696d91fdd5a904e89f0ae",
+          "medium": "https://ksr-ugc.imgix.net/assets/006/752/112/182fabcbb884a6cad63ec1672d95bc1f_original.png?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1531415812&auto=format&frame=1&q=92&s=a6a0f664f954204a411fc08606c0cd98"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/magicmeeplegames"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/1503075391?signature=1621351534.251d3d7732cf20ba65efea96dc7aba7776df2b3b"
+          }
+        }
+      },
+      "location": {
+        "id": 2471390,
+        "name": "Phoenix",
+        "slug": "phoenix-az",
+        "short_name": "Phoenix, AZ",
+        "displayable_name": "Phoenix, AZ",
+        "localized_name": "Phoenix",
+        "country": "US",
+        "state": "AZ",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "United States",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/phoenix-az",
+            "location": "https://www.kickstarter.com/locations/phoenix-az"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621328173.9393a8d0ab8d4a159ce85d82dd4b14fde6f1b28e&woe_id=2471390"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 3545373,
+        "project_id": 3545373,
+        "state": "active",
+        "state_changed_at": 1551395093,
+        "name": "Incoming Transmission: CoOp Deduction Boardgame (plus App!)",
+        "blurb": "A Compact, Cooperative-Puzzle Tabletop Game with Turn-Based play modes & OPTIONAL Digital Companion App for Real-Time Modes!",
+        "background_color": "",
+        "text_color": "",
+        "link_background_color": "",
+        "link_text_color": "",
+        "link_text": "Pre-Order Now!",
+        "link_url": "https://magicmeeple.pledgemanager.com/projects/incoming-transmission-16-bit-deduction-family-boar/participate/",
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=642d0bea424eff093f5120e245123d1d",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/024/222/010/6945f249351c922398943ede9cf96e4b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1551219612&auto=format&frame=1&q=92&s=876f3b80f6b591a9c345145fbd5b6430"
+          }
+        }
+      },
+      "spotlight": true,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-an-app-enhanced-deduction-bo?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-an-app-enhanced-deduction-bo/rewards"
+        }
+      }
+    },
+    {
+      "id": 1079426955,
+      "photo": {
+        "key": "assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg",
+        "full": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=ae7e8583fec83eed455317c245f562bf",
+        "ed": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=9dfebbfcd7f8a73b992f29594193d1ed",
+        "med": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=f29f42f3b976aabfffefb5097f708a60",
+        "little": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=622f1264a0cf5d82f7f68163f8666079",
+        "small": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=11846ec6aa3813c140b9db3dcb027bd7",
+        "thumb": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=315729094c83a3fd13b74b479fcfef47",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=6b9bb03c62580bfb4ac4dd765d2f6296",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=adef2d9cfa10e9bca1a4ab35a5430414"
+      },
+      "name": "Kingdom of Aros",
+      "blurb": "Kingdom of Aros is a RPG boardgame. Ever played games like Zelda this could be for you. Including special Kids rules and parts.",
+      "goal": 500.0,
+      "pledged": 12182.5,
+      "state": "successful",
+      "slug": "kingdom-of-aros",
+      "disable_communication": false,
+      "country": "DE",
+      "country_displayable_name": "Germany",
+      "currency": "EUR",
+      "currency_symbol": "€",
+      "currency_trailing_code": false,
+      "deadline": 1600541713,
+      "state_changed_at": 1600541713,
+      "created_at": 1594829852,
+      "launched_at": 1597949713,
+      "staff_pick": false,
+      "is_starrable": false,
+      "backers_count": 385,
+      "static_usd_rate": 1.19303411,
+      "usd_pledged": "14534.138045075",
+      "converted_pledged_amount": 14423,
+      "fx_rate": 1.21317263,
+      "usd_exchange_rate": 1.18396999,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 1439279651,
+        "name": "Florian H. Azar",
+        "slug": "florianazar",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/028/641/492/b3384a25508db6e76f8b966e6efe01ac_original.jpg?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1586166324&auto=format&frame=1&q=92&s=c2f42853f514941962608914029a49ca",
+          "small": "https://ksr-ugc.imgix.net/assets/028/641/492/b3384a25508db6e76f8b966e6efe01ac_original.jpg?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1586166324&auto=format&frame=1&q=92&s=1b2b562c2f540f56a7a41ff5cdf6ac20",
+          "medium": "https://ksr-ugc.imgix.net/assets/028/641/492/b3384a25508db6e76f8b966e6efe01ac_original.jpg?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1586166324&auto=format&frame=1&q=92&s=863d9f2e3b1906225473242aeb083909"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/florianazar"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/1439279651?signature=1621351534.7a5b4930792f589a655bb226c804d9ab7734f7ca"
+          }
+        }
+      },
+      "location": {
+        "id": 12635655,
+        "name": "Gemeinde Würzburg",
+        "slug": "gemeinde-wurzburg-de",
+        "short_name": "Gemeinde Würzburg, Germany",
+        "displayable_name": "Gemeinde Würzburg, Germany",
+        "localized_name": "Gemeinde Würzburg",
+        "country": "DE",
+        "state": "Bavaria",
+        "type": "LocalAdmin",
+        "is_root": false,
+        "expanded_country": "Germany",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/gemeinde-wurzburg-de",
+            "location": "https://www.kickstarter.com/locations/gemeinde-wurzburg-de"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621336615.3711265ef3c0cd3c5c945d0f1da2d7e498204b82&woe_id=12635655"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 4033919,
+        "project_id": 4033919,
+        "state": "inactive",
+        "state_changed_at": 1594829852,
+        "name": null,
+        "blurb": null,
+        "background_color": null,
+        "text_color": null,
+        "link_background_color": null,
+        "link_text_color": null,
+        "link_text": null,
+        "link_url": null,
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=adef2d9cfa10e9bca1a4ab35a5430414",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/030/270/874/c315fa13ba092e88b1e7169191f3337b_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1597915146&auto=format&frame=1&q=92&s=ae7e8583fec83eed455317c245f562bf"
+          }
+        }
+      },
+      "spotlight": true,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/florianazar/kingdom-of-aros?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/florianazar/kingdom-of-aros/rewards"
+        }
+      }
+    },
+    {
+      "id": 30488657,
+      "photo": {
+        "key": "assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg",
+        "full": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=168c5de5a9e2e5a6685d33cc814199a5",
+        "ed": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=4b94deb854f53fd67195bcd37ed1f5d4",
+        "med": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=9ecaf0ac5f1ca5af0df4fdc07ddfbb72",
+        "little": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=fdb8b3fbb88fdc693a697579b64a6214",
+        "small": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=d05721d0396da819cf14d481a7a74fb5",
+        "thumb": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=5f371075978a69b0a42e326fc08d4bc0",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=1ee00d24cc6988db828884c364e5ed8f",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=db6ab10e7ed15c38ec960bf97fec0e08"
+      },
+      "name": "Paradise Lost",
+      "blurb": "Epic, fantasy deduction boardgame for 2-5 players.  Be a Hero, free our fables as you battle the Ice Witch & restore hope to the world.",
+      "goal": 13999.0,
+      "pledged": 43060.0,
+      "state": "successful",
+      "slug": "paradise-lost-0",
+      "disable_communication": false,
+      "country": "US",
+      "country_displayable_name": "the United States",
+      "currency": "USD",
+      "currency_symbol": "$",
+      "currency_trailing_code": true,
+      "deadline": 1557504000,
+      "state_changed_at": 1557504000,
+      "created_at": 1518319277,
+      "launched_at": 1554825307,
+      "staff_pick": false,
+      "is_starrable": false,
+      "backers_count": 501,
+      "static_usd_rate": 1.0,
+      "usd_pledged": "43060.0",
+      "converted_pledged_amount": 43060,
+      "fx_rate": 1.0,
+      "usd_exchange_rate": 1.0,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 1637269442,
+        "name": "Tom Butler",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/010/682/339/0934e146decf3927115c0fd22a990384_original.png?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1496628954&auto=format&frame=1&q=92&s=4006124dfd44b78a902371692dc59f3e",
+          "small": "https://ksr-ugc.imgix.net/assets/010/682/339/0934e146decf3927115c0fd22a990384_original.png?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1496628954&auto=format&frame=1&q=92&s=af600ffd218489781f4cdd573bd45895",
+          "medium": "https://ksr-ugc.imgix.net/assets/010/682/339/0934e146decf3927115c0fd22a990384_original.png?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1496628954&auto=format&frame=1&q=92&s=c820cc18d802636f69282af8a53250e2"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/1637269442"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/1637269442?signature=1621351534.d011cc4ed3fd1f7eec9898b8800e3e94fcb2fd8f"
+          }
+        }
+      },
+      "location": {
+        "id": 2357024,
+        "name": "Atlanta",
+        "slug": "atlanta-ga",
+        "short_name": "Atlanta, GA",
+        "displayable_name": "Atlanta, GA",
+        "localized_name": "Atlanta",
+        "country": "US",
+        "state": "GA",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "United States",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/atlanta-ga",
+            "location": "https://www.kickstarter.com/locations/atlanta-ga"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621328141.58660017297f6b08be26497d1b71dedb0e0d37eb&woe_id=2357024"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 3306423,
+        "project_id": 3306423,
+        "state": "active",
+        "state_changed_at": 1557525929,
+        "name": "Paradise Lost",
+        "blurb": "Epic, fantasy deduction boardgame for 2-5 players.  Be a Hero, free our fables as you battle the Ice Witch & restore hope to the world.",
+        "background_color": "",
+        "text_color": "",
+        "link_background_color": "",
+        "link_text_color": "",
+        "link_text": "Late Pledge Click Here!",
+        "link_url": "http://www.greenfeetgames.org/paradiselostkickstarter",
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=db6ab10e7ed15c38ec960bf97fec0e08",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/024/717/698/af9afac24217e4fdc60426d49dbb8f84_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1554856713&auto=format&frame=1&q=92&s=168c5de5a9e2e5a6685d33cc814199a5"
+          }
+        }
+      },
+      "spotlight": true,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/1637269442/paradise-lost-0?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/1637269442/paradise-lost-0/rewards"
+        }
+      }
+    },
+    {
+      "id": 1463162281,
+      "photo": {
+        "key": "assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif",
+        "full": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=affb80055bc5b439f7e27640a3f5b605",
+        "ed": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=4fa3d7927e090bd45400a7d1ca67f745",
+        "med": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=272&h=153&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=cc117c974845a411a4606536ac65426c",
+        "little": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=208&h=117&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=70a341e2c775dcf36d741bf477a03afb",
+        "small": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=160&h=90&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=b3952c6a1cde76f81a6b448e1d356f68",
+        "thumb": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=48&h=27&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=49b1b9b36555c8a0f6512ba0d06e2847",
+        "1024x576": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=b74f65663577ea18d790493196e3a9cc",
+        "1536x864": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=9b6711e793d1fe50c56ebaffe2954fda"
+      },
+      "name": "LexiCon 2017 Tabletop Boardgaming Convention",
+      "blurb": "LexiCon 2017: Return of the Meeple! will be amazing!  Full of fun, with even more Boardgaming, Tournaments, RPGs, and Cosplay events!",
+      "goal": 5000.0,
+      "pledged": 6859.0,
+      "state": "successful",
+      "slug": "lexicon-2017-tabletop-boardgaming-convention",
+      "disable_communication": false,
+      "country": "US",
+      "country_displayable_name": "the United States",
+      "currency": "USD",
+      "currency_symbol": "$",
+      "currency_trailing_code": true,
+      "deadline": 1477446441,
+      "state_changed_at": 1477446441,
+      "created_at": 1467659821,
+      "launched_at": 1475804841,
+      "staff_pick": false,
+      "is_starrable": false,
+      "backers_count": 89,
+      "static_usd_rate": 1.0,
+      "usd_pledged": "6859.0",
+      "converted_pledged_amount": 6859,
+      "fx_rate": 1.0,
+      "usd_exchange_rate": 1.0,
+      "current_currency": "USD",
+      "usd_type": "international",
+      "creator": {
+        "id": 759265949,
+        "name": "Greg Franseth and Chris Grzywacz",
+        "slug": "lexicon-cincitycon",
+        "is_registered": null,
+        "is_email_verified": null,
+        "chosen_currency": null,
+        "is_superbacker": null,
+        "avatar": {
+          "thumb": "https://ksr-ugc.imgix.net/assets/007/042/635/56af381daef1cb68d697278b972a0026_original.jpg?ixlib=rb-4.0.2&w=40&h=40&fit=crop&v=1548099713&auto=format&frame=1&q=92&s=d337f59ec99db1b45cce5e58b54434f1",
+          "small": "https://ksr-ugc.imgix.net/assets/007/042/635/56af381daef1cb68d697278b972a0026_original.jpg?ixlib=rb-4.0.2&w=80&h=80&fit=crop&v=1548099713&auto=format&frame=1&q=92&s=30db2b26c10f105fb9b12ea640b7b481",
+          "medium": "https://ksr-ugc.imgix.net/assets/007/042/635/56af381daef1cb68d697278b972a0026_original.jpg?ixlib=rb-4.0.2&w=160&h=160&fit=crop&v=1548099713&auto=format&frame=1&q=92&s=1ff8cdb3706f565cfa205221256038bf"
+        },
+        "urls": {
+          "web": {
+            "user": "https://www.kickstarter.com/profile/lexicon-cincitycon"
+          },
+          "api": {
+            "user": "https://api.kickstarter.com/v1/users/759265949?signature=1621351534.6beac82de71f1815601e3dd145a76896df089b28"
+          }
+        }
+      },
+      "location": {
+        "id": 2438841,
+        "name": "Lexington",
+        "slug": "lexington-ky",
+        "short_name": "Lexington, KY",
+        "displayable_name": "Lexington, KY",
+        "localized_name": "Lexington",
+        "country": "US",
+        "state": "KY",
+        "type": "Town",
+        "is_root": false,
+        "expanded_country": "United States",
+        "urls": {
+          "web": {
+            "discover": "https://www.kickstarter.com/discover/places/lexington-ky",
+            "location": "https://www.kickstarter.com/locations/lexington-ky"
+          },
+          "api": {
+            "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1621328401.e9e4dabccf62c51864be2fc5c13e14a5326f1d27&woe_id=2438841"
+          }
+        }
+      },
+      "category": {
+        "id": 34,
+        "name": "Tabletop Games",
+        "analytics_name": "Tabletop Games",
+        "slug": "games/tabletop games",
+        "position": 6,
+        "parent_id": 12,
+        "parent_name": "Games",
+        "color": 51627,
+        "urls": {
+          "web": {
+            "discover": "http://www.kickstarter.com/discover/categories/games/tabletop%20games"
+          }
+        }
+      },
+      "profile": {
+        "id": 2586697,
+        "project_id": 2586697,
+        "state": "active",
+        "state_changed_at": 1477447616,
+        "name": "LexiCon 2017 Tabletop Boardgaming Convention",
+        "blurb": "LexiCon 2017: Return of the Meeple! will be amazing!  Full of fun, with even more Boardgaming, Tournaments, RPGs, and Cosplay events!",
+        "background_color": "e3fae6",
+        "text_color": "110663",
+        "link_background_color": "",
+        "link_text_color": "",
+        "link_text": "Follow along!",
+        "link_url": "https://www.kickstarter.com/projects/759265949/lexicon-2017-tabletop-boardgaming-convention?ref=user_menu",
+        "show_feature_image": false,
+        "background_image_opacity": 0.8,
+        "should_show_feature_image_section": true,
+        "feature_image_attributes": {
+          "image_urls": {
+            "default": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=9b6711e793d1fe50c56ebaffe2954fda",
+            "baseball_card": "https://ksr-ugc.imgix.net/assets/012/954/746/44d4cd34cad55d58e46af0f8a9402949_original.gif?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1468030227&auto=format&frame=1&q=92&s=affb80055bc5b439f7e27640a3f5b605"
+          }
+        }
+      },
+      "spotlight": true,
+      "urls": {
+        "web": {
+          "project": "https://www.kickstarter.com/projects/lexicon-cincitycon/lexicon-2017-tabletop-boardgaming-convention?ref=discovery",
+          "rewards": "https://www.kickstarter.com/projects/lexicon-cincitycon/lexicon-2017-tabletop-boardgaming-convention/rewards"
+        }
+      }
+    }
+  ],
+  "total_hits": 491,
+  "live_projects_count": 3,
+  "ref_tag": "discovery",
+  "term_categories": [
+    {
+      "name": "Tabletop Games",
+      "id": 34
+    }
+  ],
+  "seed": 2702108,
+  "search_url": "/discover?term=boardgame",
+  "suggestion": "boardgame",
+  "has_more": true
+}

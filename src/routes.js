@@ -11,4 +11,5 @@ export default { // eslint-disable-line
   signupPagePath: () => '/signup',
   boardgamePath: () => [apiPath, 'boardgame'].join('/'),
   kickstartersPath: () => [apiPath, 'kickstarters'].join('/'),
+  apiPath: () => apiPath,
 };
