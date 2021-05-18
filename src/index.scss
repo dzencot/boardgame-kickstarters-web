@@ -19,3 +19,7 @@ code {
   transition-property: box-shadow;
   transition-timing-function: ease-out;
 }
+
+.x-link-without-decoration {
+  text-decoration: none!important;
+}
