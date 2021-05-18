@@ -18,7 +18,7 @@ const Kickstarter = ({
 }) => {
   // const { t } = useTranslation();
 
-  const previewUrl = `${routes.apiPath()}${kickstarter.image_med.url}`;
+  const previewUrl = `${routes.apiPath()}${kickstarter?.image_med?.url}`;
 
   return (
     <div key={kickstarter.id} className="col-lg-4 col-md-6 col-12 mt-3">
