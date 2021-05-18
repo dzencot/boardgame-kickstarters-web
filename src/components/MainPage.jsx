@@ -1,7 +1,7 @@
 // @ts-check
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Button, Dropdown, ButtonGroup, Image } from 'react-bootstrap';
+import { Button, Image } from 'react-bootstrap';
 import Spinner from 'react-bootstrap/Spinner';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router-dom';
@@ -15,23 +15,39 @@ import kickService from '../lib/kickstarters.js';
 
 const Kickstarter = ({
   kickstarter,
-  handleRemove,
-  handleEdit,
 }) => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   const previewUrl = `${routes.apiPath()}${kickstarter.image_med.url}`;
 
   return (
-    <div key={kickstarter.id} className="d-flex flex-column align-items-center mb-3">
-      <div className="p-2">
-        <span>{kickstarter.title}</span>
-      </div>
-      <div className="p-2">
-        <Image src={previewUrl} />
-      </div>
-      <div className="p-2">
-        <span>{kickstarter.start_date} - {kickstarter.finish_date}</span>
+    <div key={kickstarter.id} className="col-lg-4 col-md-6 col-12 mt-3">
+      <div className="card shadow-sm x-shadow-fade-in h-100">
+        <div className="card-header text-white py-2 bg-success text-truncate">
+          <h5>{kickstarter.title}</h5>
+        </div>
+        <div className="d-flex">
+          <div className="p-2">
+            <Image src={previewUrl} />
+          </div>
+          <div>
+            <span>INFO</span>
+          </div>
+        </div>
+        <div className="d-flex pb-2">
+          <div className="pl-2">
+            <span>
+              {kickstarter.start_date}
+              -
+              {kickstarter.finish_date}
+            </span>
+          </div>
+          <div className="pr-2 ml-auto mt-auto">
+            <a className="stretched-link x-link-without-decoration" href="/test">
+              <span className="text-secondary">Подробности</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -43,21 +59,18 @@ const MainPage = () => {
   const [fetching, setFetching] = useState(true);
   const history = useHistory();
 
-  const { kickstarters } = useSelector((state) => {
-    console.log(state);
-    return state.kickstartersInfo;
-  });
+  const { kickstarters } = useSelector((state) => state.kickstartersInfo);
   // let kickstarters;
 
-  const handleAddKikstarter = () => {
-    dispatch(actions.openModal({ type: 'addKikstarter' }));
-  };
-  const handleRemoveKikstarter = (kickstarterId) => () => {
-    dispatch(actions.openModal({ type: 'removeKikstarter', extra: { kickstarterId } }));
-  };
-  const handleEditKikstarter = (kickstarterId) => () => {
-    dispatch(actions.openModal({ type: 'editKikstarter', extra: { kickstarterId } }));
-  };
+  // const handleAddKikstarter = () => {
+  //   dispatch(actions.openModal({ type: 'addKikstarter' }));
+  // };
+  // const handleRemoveKikstarter = (kickstarterId) => () => {
+  //   dispatch(actions.openModal({ type: 'removeKikstarter', extra: { kickstarterId } }));
+  // };
+  // const handleEditKikstarter = (kickstarterId) => () => {
+  //   dispatch(actions.openModal({ type: 'editKikstarter', extra: { kickstarterId } }));
+  // };
 
   const handleAddKickstarters = () => {
     axios.get('/boardgames.json').then((boardgamesData) => {
@@ -119,15 +132,15 @@ const MainPage = () => {
           </Button>
         </div>
         <Modal />
-        <main className="bg-info">
-          {kickstarters.map((kickstarter) => (
-            <Kickstarter
-              key={kickstarter.id}
-              kickstarter={kickstarter}
-              handleRemove={handleRemoveKikstarter}
-              handleEdit={handleEditKikstarter}
-            />
-          ))}
+        <main className="">
+          <div className="row">
+            {kickstarters.map((kickstarter) => (
+              <Kickstarter
+                key={kickstarter.id}
+                kickstarter={kickstarter}
+              />
+            ))}
+          </div>
         </main>
       </>
     );
