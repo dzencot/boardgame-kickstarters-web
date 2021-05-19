@@ -100,9 +100,6 @@ const MainPage = () => {
           throw err;
         }
 
-        if (err.response.status === 401) {
-          history.push(routes.loginPagePath());
-        }
         // TODO: network error to toast
         throw err;
       }

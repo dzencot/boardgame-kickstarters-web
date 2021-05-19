@@ -76,9 +76,7 @@ const App = () => (
           <Route path={routes.mainPagePath()} exact>
             <MainPage />
           </Route>
-          <Route path={routes.kickstartersPagePath()}>
-            <KickstarterPage />
-          </Route>
+          <Route path={routes.kickstartersPagePath()} component={KickstarterPage} />
         </Switch>
       </div>
     </Router>
