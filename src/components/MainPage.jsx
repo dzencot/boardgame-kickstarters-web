@@ -43,7 +43,7 @@ const Kickstarter = ({
             </span>
           </div>
           <div className="pr-2 ml-auto mt-auto">
-            <a className="stretched-link x-link-without-decoration" href="/test">
+            <a className="stretched-link x-link-without-decoration" href={`/kickstarters/${kickstarter.id}`}>
               <span className="text-secondary">Подробности</span>
             </a>
           </div>

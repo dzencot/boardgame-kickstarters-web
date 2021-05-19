@@ -13,6 +13,7 @@ import Registration from './Registration.jsx';
 import authContext from '../contexts/index.js';
 import MainPage from './MainPage.jsx';
 import Navbar from './Navbar.jsx';
+import KickstarterPage from './KickstarterPage.jsx';
 
 import useAuth from '../hooks/index.js';
 import routes from '../routes.js';
@@ -72,9 +73,12 @@ const App = () => (
           <Route path={routes.signupPagePath()}>
             <Registration />
           </Route>
-          <PrivateRoute path={routes.mainPagePath()} exact>
+          <Route path={routes.mainPagePath()} exact>
             <MainPage />
-          </PrivateRoute>
+          </Route>
+          <Route path={routes.kickstartersPagePath()}>
+            <KickstarterPage />
+          </Route>
         </Switch>
       </div>
     </Router>
