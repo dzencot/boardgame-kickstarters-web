@@ -5,13 +5,13 @@ import { Button, Image } from 'react-bootstrap';
 import Spinner from 'react-bootstrap/Spinner';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router-dom';
-import axios from 'axios';
+// import axios from 'axios';
 
-import Modal from './Modal.jsx';
+import Modal from './modals/Modal.jsx';
 import { actions } from '../slices/index.js';
 import routes from '../routes.js';
-import getAuthToken from '../lib/auth.js';
-import kickService from '../lib/kickstarters.js';
+// import kickService from '../lib/kickstarters.js';
+import { getFetch } from '../lib/utils.js';
 
 const Kickstarter = ({
   kickstarter,
@@ -62,9 +62,9 @@ const MainPage = () => {
   const { kickstarters } = useSelector((state) => state.kickstartersInfo);
   // let kickstarters;
 
-  // const handleAddKikstarter = () => {
-  //   dispatch(actions.openModal({ type: 'addKikstarter' }));
-  // };
+  const handleAddKickstarter = () => {
+    dispatch(actions.openModal({ type: 'addKikstarter' }));
+  };
   // const handleRemoveKikstarter = (kickstarterId) => () => {
   //   dispatch(actions.openModal({ type: 'removeKikstarter', extra: { kickstarterId } }));
   // };
@@ -72,14 +72,14 @@ const MainPage = () => {
   //   dispatch(actions.openModal({ type: 'editKikstarter', extra: { kickstarterId } }));
   // };
 
-  const handleAddKickstarters = () => {
-    axios.get('/boardgames.json').then((boardgamesData) => {
-      const parsed = kickService.parseKickstartersJson(boardgamesData.data);
-      kickService.uploadResources(parsed).then((result) => {
-        console.log(result);
-      });
-    });
-  };
+  // const handleAddKickstarters = () => {
+  //   axios.get('/boardgames.json').then((boardgamesData) => {
+  //     const parsed = kickService.parseKickstartersJson(boardgamesData.data);
+  //     kickService.uploadResources(parsed).then((result) => {
+  //       console.log(result);
+  //     });
+  //   });
+  // };
 
   useEffect(() => {
     // NOTE this removes warning in tests https://github.com/facebook/react/issues/14369
@@ -87,12 +87,7 @@ const MainPage = () => {
     let didMount = true;
     const fetchData = async () => {
       try {
-        const { data } = await axios.get(routes.kickstartersPath(),
-          {
-            headers: {
-              Authorization: getAuthToken(),
-            },
-          });
+        const { data } = await getFetch().get(routes.kickstartersPath());
         if (didMount) setFetching(false);
         dispatch(actions.setKickstarters({ kickstarters: data }));
       } catch (err) {
@@ -123,7 +118,7 @@ const MainPage = () => {
             type="button"
             variant="link"
             className="ml-auto p-0"
-            onClick={handleAddKickstarters}
+            onClick={handleAddKickstarter}
           >
             {t('mainPage.addKickstarter')}
           </Button>

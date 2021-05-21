@@ -32,6 +32,14 @@ export default {
       confirmation: 'Действительно хотите это сделать?',
       confirm: 'Подтвердить',
       remove: 'Удаление',
+      contract: {
+        addContract: 'Вписаться',
+        add: 'Вы действительно хотите вписаться в этот заказ?',
+      },
+      pledge: {
+        addPledge: 'Добавить позицию',
+        add: 'Добавить позицию',
+      },
     },
     kickstarter: {
       remove: 'Удалить кикстартер',

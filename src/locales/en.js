@@ -32,6 +32,14 @@ export default {
       confirmation: 'Are you sure?',
       confirm: 'Confirm',
       remove: 'Delete',
+      contract: {
+        addContract: 'Back this project',
+        add: 'Are you sure?',
+      },
+      pledge: {
+        addPledge: 'Add pledge',
+        add: 'Add pledge',
+      },
     },
     kickstarter: {
       remove: 'Remove kickstarter',

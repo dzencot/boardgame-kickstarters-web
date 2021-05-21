@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <BootstrapNavbar bg="light" expand="lg" className="mb-3">
       <BootstrapNavbar.Brand as={Link} to="/" className="mr-auto">{t('mainPage.title')}</BootstrapNavbar.Brand>
-      {!!user && <Button onClick={logOut}>{t('logout')}</Button>}
+      {!!user && <Button className="bg-success" onClick={logOut}>{t('logout')}</Button>}
     </BootstrapNavbar>
   );
 };

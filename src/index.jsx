@@ -2,12 +2,15 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
 import init from './init.jsx';
+import getLogger from './lib/logger.js';
 
 localStorage.debug = 'board-kick:*';
+const log = getLogger('index');
 
 const app = async () => {
   // eslint-disable-next-line
   const vdom = await init();
+  log('test');
 
   ReactDOM.render(vdom, document.getElementById('root'));
 

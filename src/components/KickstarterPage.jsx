@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import axios from 'axios';
+// @ts-check
 
-import getAuthToken from '../lib/auth.js';
+import React, { useEffect, useState } from 'react';
+import { Button, Image } from 'react-bootstrap';
+import { useSelector, useDispatch } from 'react-redux';
+import { useTranslation } from 'react-i18next';
+
+import Modal from './modals/Modal.jsx';
 import { actions } from '../slices/index.js';
 import routes from '../routes.js';
+import { getFetch } from '../lib/utils.js';
 
 const Contract = ({ contract }) => {
   return (
@@ -14,10 +18,12 @@ const Contract = ({ contract }) => {
 };
 
 const KickstarterPage = (props) => {
+  const { t } = useTranslation();
   const { id } = props.match.params;
   const dispatch = useDispatch();
   const [fetching, setFetching] = useState(true);
   const { kickstarter } = useSelector((state) => state.contractsInfo);
+  const kickImageUrl = `${routes.apiPath()}${kickstarter?.image_full?.url}`;
 
   useEffect(() => {
     // NOTE this removes warning in tests https://github.com/facebook/react/issues/14369
@@ -25,12 +31,7 @@ const KickstarterPage = (props) => {
     let didMount = true;
     const fetchData = async () => {
       try {
-        const { data } = await axios.get(`${routes.kickstartersPath()}/${id}`,
-          {
-            headers: {
-              Authorization: getAuthToken(),
-            },
-          });
+        const { data } = await getFetch().get(`${routes.kickstartersPath()}/${id}`);
         if (didMount) setFetching(false);
         dispatch(actions.setContractsData({ kickstarter: data }));
       } catch (err) {
@@ -48,7 +49,39 @@ const KickstarterPage = (props) => {
     return () => { didMount = false; };
   }, [dispatch]);
 
-  return <>{ id }</>;
+  const handleAddContract = () => {
+    dispatch(actions.openModal({ type: 'addContract' }));
+  };
+  const handleAddPledge = () => {
+    dispatch(actions.openModal({ type: 'addPledge', extra: { kickstarter } }));
+  };
+
+  return (
+    <div>
+      <Modal />
+      <Image src={kickImageUrl} />
+      <div className=" mb-2">
+        <Button
+          type="button"
+          variant="link"
+          className="ml-auto p-0"
+          onClick={handleAddContract}
+        >
+          {t('modals.contract.addContract')}
+        </Button>
+      </div>
+      <div className=" mb-2">
+        <Button
+          type="button"
+          variant="link"
+          className="ml-auto p-0"
+          onClick={handleAddPledge}
+        >
+          {t('modals.pledge.addPledge')}
+        </Button>
+      </div>
+    </div>
+  );
 };
 
 export default KickstarterPage;
