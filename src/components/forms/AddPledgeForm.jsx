@@ -50,7 +50,7 @@ const AddPledgeForm = (props) => {
       try {
         log('pledge.add');
         const pledgeData = { title: name, kickstarter: kickstarter.id, price };
-        const { data } = await getFetch().post(routes.pledgePath(), pledgeData);
+        const { data } = await getFetch().post(routes.pledgesPath(), pledgeData);
         dispatch(actions.addPledge({ pledge: data, price }));
         handleClose();
       } catch (e) {

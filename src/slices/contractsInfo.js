@@ -15,6 +15,10 @@ const slice = createSlice({
       const { kickstarter } = payload;
       state.kickstarter = kickstarter;
     },
+    addContract: (state, { payload }) => {
+      const { contract } = payload;
+      state.contracts.push(contract);
+    },
   },
 });
 

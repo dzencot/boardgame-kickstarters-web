@@ -17,6 +17,32 @@ const Contract = ({ contract }) => {
   );
 };
 
+const Pledge = ({ pledge }) => {
+  const { t } = useTranslation();
+  const dispatch = useDispatch();
+  const contract = {};
+  const handleAddContract = () => {
+    dispatch(actions.openModal({ type: 'addContract', extra: { contract } }));
+  };
+
+  return (
+    <div className=" mb-2">
+      <div>
+        <div>{pledge.title}</div>
+        <div>{pledge.price}</div>
+      </div>
+      <Button
+        type="button"
+        variant="link"
+        className="ml-auto p-0"
+        onClick={handleAddContract}
+      >
+        {t('modals.contract.addContract')}
+      </Button>
+    </div>
+  );
+};
+
 const KickstarterPage = (props) => {
   const { t } = useTranslation();
   const { id } = props.match.params;
@@ -49,9 +75,6 @@ const KickstarterPage = (props) => {
     return () => { didMount = false; };
   }, [dispatch]);
 
-  const handleAddContract = () => {
-    dispatch(actions.openModal({ type: 'addContract' }));
-  };
   const handleAddPledge = () => {
     dispatch(actions.openModal({ type: 'addPledge', extra: { kickstarter } }));
   };
@@ -65,20 +88,13 @@ const KickstarterPage = (props) => {
           type="button"
           variant="link"
           className="ml-auto p-0"
-          onClick={handleAddContract}
-        >
-          {t('modals.contract.addContract')}
-        </Button>
-      </div>
-      <div className=" mb-2">
-        <Button
-          type="button"
-          variant="link"
-          className="ml-auto p-0"
           onClick={handleAddPledge}
         >
           {t('modals.pledge.addPledge')}
         </Button>
+      </div>
+      <div>
+        {kickstarter?.pledges?.map((pledge) => <Pledge key={pledge.id} pledge={pledge} />)}
       </div>
     </div>
   );
