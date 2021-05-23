@@ -53,7 +53,9 @@ const uploadResources = (parsedKick, uploadDataKick) => {
     //     Authorization: getAuthToken(),
     //   },
     // });
-    const dataKick = uploadDataKick;
+    const currentUpladDataKick = uploadDataKick
+      .find((uploaded) => uploaded.kickstarter_id === kickstarter.kickstarter_id);
+    const dataKick = currentUpladDataKick;
 
     console.log('uploadKick:', uploadDataKick);
 

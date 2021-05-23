@@ -10,7 +10,7 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 import { useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
-import axios from 'axios';
+// import axios from 'axios';
 
 import getLogger from '../../lib/logger.js';
 import { actions } from '../../slices/index.js';

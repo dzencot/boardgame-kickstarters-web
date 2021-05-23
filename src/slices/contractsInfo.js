@@ -2,7 +2,6 @@
 /* eslint-disable no-param-reassign */
 
 import { createSlice } from '@reduxjs/toolkit';
-import remove from 'lodash/remove';
 
 const slice = createSlice({
   name: 'contractsInfo',
@@ -27,4 +26,3 @@ const slice = createSlice({
 
 export const { actions } = slice;
 export default slice.reducer;
-

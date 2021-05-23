@@ -15,7 +15,7 @@ import EditKikstarterForm from '../forms/EditKickstarterForm.jsx';
 import AddContractForm from '../forms/AddContractForm.jsx';
 import AddPledgeForm from '../forms/AddPledgeForm.jsx';
 
-const log = getLogger('client');
+const log = getLogger('modal'); // eslint-disable-line
 
 const mapping = {
   addKikstarter: AddKikstarterForm,

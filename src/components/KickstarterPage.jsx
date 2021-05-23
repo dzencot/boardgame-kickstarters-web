@@ -23,8 +23,11 @@ const Contract = ({ contract }) => (
 const Pledge = ({ pledge }) => {
   const { t } = useTranslation();
   const dispatch = useDispatch();
-  const contracts = useSelector((state) =>
-    state.contractsInfo.contracts.filter((contract) => contract.pledge === pledge.id));
+  const contracts = useSelector((state) => {
+    const result = state.contractsInfo.contracts
+      .filter((contract) => contract.pledge === pledge.id);
+    return result;
+  });
   const handleAddContract = () => {
     dispatch(actions.openModal({ type: 'addContract', extra: { pledge } }));
   };
@@ -86,9 +89,9 @@ const Pledge = ({ pledge }) => {
 
 const KickstarterPage = (props) => {
   const { t } = useTranslation();
-  const { id } = props.match.params;
+  const { id } = props.match.params; // eslint-disable-line
   const dispatch = useDispatch();
-  const [fetching, setFetching] = useState(true);
+  const [fetching, setFetching] = useState(true); // eslint-disable-line
   const { kickstarter } = useSelector((state) => state.contractsInfo);
   const kickImageUrl = `${routes.apiPath()}${kickstarter?.image_full?.url}`;
 
@@ -114,7 +117,7 @@ const KickstarterPage = (props) => {
     fetchData();
 
     return () => { didMount = false; };
-  }, [dispatch]);
+  }, []); // eslint-disable-line
 
   const handleAddPledge = () => {
     dispatch(actions.openModal({ type: 'addPledge', extra: { kickstarter } }));

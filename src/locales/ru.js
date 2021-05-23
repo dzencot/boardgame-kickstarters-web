@@ -39,7 +39,7 @@ export default {
       },
       pledge: {
         addPledge: 'Добавить пледж',
-        add: 'Добавить позицию',
+        add: 'Добавить пледж',
       },
     },
     kickstarter: {

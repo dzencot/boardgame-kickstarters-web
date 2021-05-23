@@ -1,6 +1,6 @@
 // @ts-check
 
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import {
   Modal as BootstrapModal,
   Form,
@@ -23,7 +23,7 @@ const AddContractForm = (props) => {
   const { handleClose } = props;
   const { t } = useTranslation();
   const dispatch = useDispatch();
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
   const { pledge } = useSelector((state) => state.modal.extra);
   const inputRef = useRef(null);
 
