@@ -35,15 +35,21 @@ export default {
       contract: {
         addContract: 'Вписаться',
         add: 'Вы действительно хотите вписаться в этот заказ?',
+        count: 'Количество:',
       },
       pledge: {
-        addPledge: 'Добавить позицию',
+        addPledge: 'Добавить пледж',
         add: 'Добавить позицию',
       },
     },
     kickstarter: {
       remove: 'Удалить кикстартер',
       edit: 'Редактировать кикстартер',
+      usersList: 'Список вписавшихся',
+    },
+    contractTable: {
+      userName: 'Имя',
+      count: 'Количество',
     },
   },
 };

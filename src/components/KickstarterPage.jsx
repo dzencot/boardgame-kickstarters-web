@@ -10,37 +10,78 @@ import { actions } from '../slices/index.js';
 import routes from '../routes.js';
 import { getFetch } from '../lib/utils.js';
 
-const Contract = ({ contract }) => {
-  return (
-    <div id={contract.id}>
-    </div>
-  );
-};
+const Contract = ({ contract }) => (
+  <>
+    <tr>
+      <th scope="row">1</th>
+      <td>{contract.user?.username}</td>
+      <td>{contract.count}</td>
+    </tr>
+  </>
+);
 
 const Pledge = ({ pledge }) => {
   const { t } = useTranslation();
   const dispatch = useDispatch();
-  const contract = {};
+  const contracts = useSelector((state) =>
+    state.contractsInfo.contracts.filter((contract) => contract.pledge === pledge.id));
   const handleAddContract = () => {
-    dispatch(actions.openModal({ type: 'addContract', extra: { contract } }));
+    dispatch(actions.openModal({ type: 'addContract', extra: { pledge } }));
   };
 
   return (
-    <div className=" mb-2">
-      <div>
-        <div>{pledge.title}</div>
-        <div>{pledge.price}</div>
+    <div className="table-responsive-md table-striped">
+      <div className="card-header text-white py-2 bg-success text-truncate">
+        <h6 className="mb-0">{pledge.title}</h6>
       </div>
-      <Button
-        type="button"
-        variant="link"
-        className="ml-auto p-0"
-        onClick={handleAddContract}
-      >
-        {t('modals.contract.addContract')}
-      </Button>
+      <table className="table">
+        <caption>
+          <div className="d-flex justify-content-between">
+            <span>{t('kickstarter.usersList')}</span>
+            <Button
+              type="button"
+              className="bg-success"
+              onClick={handleAddContract}
+            >
+              {t('modals.contract.addContract')}
+            </Button>
+          </div>
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">{t('contractTable.userName')}</th>
+            <th scope="col">{t('contractTable.count')}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {contracts.map((contract) => <Contract key={contract.id} contract={contract} />)}
+        </tbody>
+      </table>
     </div>
   );
+  // return (
+  //   <div className=" mb-2">
+  //     <div className="">
+  //       <div className="col-lg-r col-md-6 col-12 mt-3 d-inline-block">
+  //         <span className="text-right">
+  //           {pledge.title}
+  //         </span>
+  //       </div>
+  //       <div className="col-lg-3 col-md-6 col-12 mt-3 d-inline-block">
+  //         {pledge.price}
+  //       </div>
+  //     </div>
+  //     <Button
+  //       type="button"
+  //       variant="link"
+  //       className="ml-auto p-0"
+  //       onClick={handleAddContract}
+  //     >
+  //       {t('modals.contract.addContract')}
+  //     </Button>
+  //   </div>
+  // );
 };
 
 const KickstarterPage = (props) => {

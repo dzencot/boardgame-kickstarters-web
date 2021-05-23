@@ -1,6 +1,6 @@
 // @ts-check
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import {
   Modal as BootstrapModal,
   Form,
@@ -25,19 +25,23 @@ const AddContractForm = (props) => {
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(false);
   const { pledge } = useSelector((state) => state.modal.extra);
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
 
   const f = useFormik({
     initialValues: {
-      name: '',
-      price: 0,
+      count: 1,
     },
     // validationSchema: getValidationSchema(pledge),
-    onSubmit: async ({ name, price }, { setSubmitting }) => {
+    onSubmit: async ({ count }, { setSubmitting }) => {
       try {
         log('contract.add');
-        const contractData = {};
+        const contractData = { pledge: pledge.id, count };
         const { data } = await getFetch().post(routes.contractsPath(), contractData);
-        dispatch(actions.addContract({ pledge: data, price }));
+        dispatch(actions.addContract({ contract: { ...data, pledge: data.pledge.id } }));
         handleClose();
       } catch (e) {
         log('contract.add.error', e);
@@ -60,8 +64,20 @@ const AddContractForm = (props) => {
         <Form onSubmit={f.handleSubmit}>
           <Form.Group>
             <Form.Control.Feedback type="invalid">
-              {t(f.errors.name)}
+              {t(f.errors.count)}
             </Form.Control.Feedback>
+            <Form.Label>{t('modals.contract.count')}</Form.Label>
+            <Form.Control
+              className="mb-2"
+              disabled={f.isSubmitting}
+              ref={inputRef}
+              onChange={f.handleChange}
+              onBlur={f.handleBlur}
+              value={f.values.count}
+              isInvalid={f.errors.count && f.touched.count}
+              name="count"
+              data-testid="add-kickstarter"
+            />
             <div className="d-flex justify-content-end">
               <Button
                 className="mr-2"

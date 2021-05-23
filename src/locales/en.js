@@ -35,6 +35,7 @@ export default {
       contract: {
         addContract: 'Back this project',
         add: 'Are you sure?',
+        count: 'Count:',
       },
       pledge: {
         addPledge: 'Add pledge',
@@ -44,6 +45,11 @@ export default {
     kickstarter: {
       remove: 'Remove kickstarter',
       edit: 'Edit kickstarter',
+      usersList: 'List of supporters',
+    },
+    contractTable: {
+      userName: 'User',
+      count: 'Count',
     },
   },
 };
