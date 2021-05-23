@@ -33,8 +33,8 @@ const parseKickstartersJson = (jsonData) => {
   return result;
 };
 
-const uploadResources = (kickstarters) => {
-  const promises = kickstarters.map(async (kickstarterData) => {
+const uploadResources = (parsedKick, uploadDataKick) => {
+  const promises = parsedKick.map(async (kickstarterData) => {
     const { kickstarter, images } = kickstarterData;
     const links = {
       full: images.full,
@@ -45,15 +45,15 @@ const uploadResources = (kickstarters) => {
       thumb: images.thumb,
     };
 
-    const uploadDataKick = await axios({
-      method: 'post',
-      url: route.kickstartersPath(),
-      data: kickstarter,
-      headers: {
-        Authorization: getAuthToken(),
-      },
-    });
-    const dataKick = uploadDataKick.data;
+    // const uploadDataKick = await axios({
+    //   method: 'post',
+    //   url: route.kickstartersPath(),
+    //   data: kickstarter,
+    //   headers: {
+    //     Authorization: getAuthToken(),
+    //   },
+    // });
+    const dataKick = uploadDataKick;
 
     console.log('uploadKick:', uploadDataKick);
 
