@@ -10,11 +10,13 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 import { useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
+import axios from 'axios';
 
 import getLogger from '../../lib/logger.js';
 import { actions } from '../../slices/index.js';
 import routes from '../../routes.js';
 import { getFetch } from '../../lib/utils.js';
+import kickService from '../../lib/kickstarters.js';
 
 const log = getLogger('client');
 
@@ -46,9 +48,19 @@ const AddKikstarterForm = ({ handleClose }) => {
     onSubmit: async ({ name }, { setSubmitting }) => {
       const kickstarter = { title: name };
       try {
-        const { data } = await getFetch().post(routes.kickstartersPath(), kickstarter);
-        log('kickstarter.create', data);
-        dispatch(actions.addKickstarter({ kickstarter: data }));
+        const kickApi = 'https://www.kickstarter.com/discover/advanced';
+        const kickstarterName = kickstarter.title;
+        const kickUrl = new URL(kickApi);
+        kickUrl.searchParams.set('term', kickstarterName);
+        kickUrl.searchParams.set('format', 'json');
+        console.log(`url: ${kickUrl.toString()}`);
+        const { data } = await axios.get(kickUrl.toString());
+        const parsedData = kickService.parseKickstartersJson(data);
+        const addedData = await kickService.uploadKickstarters(parsedData);
+
+        // const { data } = await getFetch().post(routes.kickstartersPath(), kickstarter);
+        log('kickstarter.create', addedData);
+        dispatch(actions.addKickstarter({ kickstarter: addedData }));
         handleClose();
       } catch (e) {
         console.log('kickstarter errr', e);
