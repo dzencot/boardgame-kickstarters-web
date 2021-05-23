@@ -5,7 +5,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  // Redirect,
+  Redirect,
 } from 'react-router-dom';
 
 import Login from './Login.jsx';
@@ -15,7 +15,7 @@ import MainPage from './MainPage.jsx';
 import Navbar from './Navbar.jsx';
 import KickstarterPage from './KickstarterPage.jsx';
 
-// import useAuth from '../hooks/index.js';
+import useAuth from '../hooks/index.js';
 import routes from '../routes.js';
 
 const AuthProvider = ({ children }) => {
@@ -47,19 +47,19 @@ const AuthProvider = ({ children }) => {
   );
 };
 
-// const PrivateRoute = ({ children, ...props }) => {
-//   const auth = useAuth();
+const PrivateRoute = ({ children, ...props }) => {
+  const auth = useAuth();
 
-//   return (
-//     <Route
-//       // eslint-disable-next-line react/jsx-props-no-spreading
-//       {...props}
-//       render={({ location }) => (auth.user
-//         ? children
-//         : <Redirect to={{ pathname: routes.loginPagePath(), state: { from: location } }} />)}
-//     />
-//   );
-// };
+  return (
+    <Route
+      // eslint-disable-next-line react/jsx-props-no-spreading
+      {...props}
+      render={({ location }) => (auth.user
+        ? children
+        : <Redirect to={{ pathname: routes.loginPagePath(), state: { from: location } }} />)}
+    />
+  );
+};
 
 const App = () => (
   <AuthProvider>
@@ -73,9 +73,9 @@ const App = () => (
           <Route path={routes.signupPagePath()}>
             <Registration />
           </Route>
-          <Route path={routes.mainPagePath()} exact>
+          <PrivateRoute path={routes.mainPagePath()} exact>
             <MainPage />
-          </Route>
+          </PrivateRoute>
           <Route path={routes.kickstartersPagePath()} component={KickstarterPage} />
         </Switch>
       </div>
