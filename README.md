@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/dzencot/boardgame-kickstarters-web/actions/workflows/node.js.yml/badge.svg)](https://github.com/dzencot/boardgame-kickstarters-web/actions/workflows/node.js.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/b6183f44971e621bf21d/maintainability)](https://codeclimate.com/github/dzencot/boardgame-kickstarters-web/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/b6183f44971e621bf21d/test_coverage)](https://codeclimate.com/github/dzencot/boardgame-kickstarters-web/test_coverage)
+
 # Фронтенд-приложение для сбора заказов
 
 ## Ресурсы
