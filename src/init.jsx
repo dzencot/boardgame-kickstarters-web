@@ -35,9 +35,5 @@ export default async () => {
     </Provider>
   );
 
-  console.log('test');
-  console.log(process);
-  console.log(process.env.REACT_APP_API_URL);
-
   return vdom;
 };
