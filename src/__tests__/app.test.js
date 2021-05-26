@@ -5,7 +5,7 @@ import 'regenerator-runtime/runtime';
 import '@testing-library/jest-dom';
 
 import {
-  render, screen, waitFor,
+  render, screen, waitFor, // eslint-disable-line
 } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
@@ -49,4 +49,3 @@ describe('auth', () => {
   //   });
   // });
 });
-
