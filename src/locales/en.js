@@ -24,6 +24,7 @@ export default {
     mainPage: {
       title: 'Kikstarters',
       addKickstarter: 'Add kickstarter',
+      addProject: 'Add project',
     },
     modals: {
       addKickstarter: 'Add kickstarter?',

@@ -23,3 +23,12 @@ code {
 .x-link-without-decoration {
   text-decoration: none!important;
 }
+
+.main {
+  &__project {
+    &_preview-image {
+      width: 272px;
+      height: 153px;
+    }
+  }
+}

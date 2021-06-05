@@ -10,9 +10,47 @@ import { useHistory } from 'react-router-dom';
 import Modal from './modals/Modal.jsx';
 import { actions } from '../slices/index.js';
 import routes from '../routes.js';
+import apiRoutes from '../apiRoutes.js';
 // import kickService from '../lib/kickstarters.js';
 import { getFetch } from '../lib/utils.js';
 
+const Project = ({
+  project,
+}) => {
+  // const { t } = useTranslation();
+
+  const previewUrl = `${routes.apiPath()}${project?.image?.url}`;
+
+  return (
+    <div key={project.id} className="col-lg-4 col-md-6 col-12 mt-3">
+      <div className="card shadow-sm x-shadow-fade-in h-100">
+        <div className="card-header text-white py-2 bg-success text-truncate">
+          <h5>{project.title}</h5>
+        </div>
+        <div className="d-flex">
+          <div className="p-2">
+            <Image src={previewUrl} className="main__project_preview-image" />
+          </div>
+          <div>
+            <span>INFO</span>
+          </div>
+        </div>
+        <div className="d-flex pb-2">
+          <div className="pl-2">
+            <span>
+              {project.finish_date}
+            </span>
+          </div>
+          <div className="pr-2 ml-auto mt-auto">
+            <a className="stretched-link x-link-without-decoration" href={`/projects/${project.id}`}>
+              <span className="text-secondary">Подробности</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 const Kickstarter = ({
   kickstarter,
 }) => {
@@ -28,7 +66,7 @@ const Kickstarter = ({
         </div>
         <div className="d-flex">
           <div className="p-2">
-            <Image src={previewUrl} />
+            <Image src={previewUrl} className="main__project_preview-image" />
           </div>
           <div>
             <span>INFO</span>
@@ -60,6 +98,7 @@ const MainPage = () => {
   const history = useHistory();
 
   const { kickstarters } = useSelector((state) => state.kickstartersInfo);
+  const { projects } = useSelector((state) => state.projectsInfo);
   // let kickstarters;
 
   const handleAddKickstarter = () => {
@@ -88,8 +127,11 @@ const MainPage = () => {
     const fetchData = async () => {
       try {
         const { data } = await getFetch().get(routes.kickstartersPath());
-        if (didMount) setFetching(false);
         dispatch(actions.setKickstarters({ kickstarters: data }));
+
+        const projectData = await getFetch().get(apiRoutes.projectPath());
+        dispatch(actions.setProjects({ projects: projectData.data }));
+        if (didMount) setFetching(false);
       } catch (err) {
         if (!err.isAxiosError) {
           throw err;
@@ -114,6 +156,11 @@ const MainPage = () => {
     : (
       <>
         <div className="d-flex mb-2">
+          <a
+            href="/projects/new"
+          >
+            {t('mainPage.addProject')}
+          </a>
           <Button
             type="button"
             variant="link"
@@ -130,6 +177,12 @@ const MainPage = () => {
               <Kickstarter
                 key={kickstarter.id}
                 kickstarter={kickstarter}
+              />
+            ))}
+            {projects.map((project) => (
+              <Project
+                key={project.id}
+                project={project}
               />
             ))}
           </div>

@@ -24,6 +24,7 @@ export default {
     mainPage: {
       title: 'Заказы на кикстартере',
       addKickstarter: 'Добавить кикстартер',
+      addProject: 'Добавить заказ',
     },
     modals: {
       addKickstarter: 'Добавить кикстартер?',
