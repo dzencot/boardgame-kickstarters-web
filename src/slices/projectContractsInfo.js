@@ -7,17 +7,17 @@ const slice = createSlice({
   name: 'projectContractsInfo',
   initialState: {
     project: {},
-    contracts: [],
+    projectContracts: [],
   },
   reducers: {
     setProjectContractsData: (state, { payload }) => {
       const { project } = payload;
       state.project = project;
-      state.contracts = project.contracts;
+      state.projectContracts = project['project-contracts'] || [];
     },
     addProjectContract: (state, { payload }) => {
-      const { contract } = payload;
-      state.contracts.push(contract);
+      const { projectContract } = payload;
+      state.projectContracts.push(projectContract);
     },
   },
 });

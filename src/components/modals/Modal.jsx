@@ -14,6 +14,7 @@ import RemoveKikstarterForm from '../forms/RemoveKickstarterForm.jsx';
 import EditKikstarterForm from '../forms/EditKickstarterForm.jsx';
 import AddContractForm from '../forms/AddContractForm.jsx';
 import AddPledgeForm from '../forms/AddPledgeForm.jsx';
+import AddProjectContractForm from '../forms/AddProjectContractForm.jsx';
 
 const log = getLogger('modal'); // eslint-disable-line
 
@@ -23,6 +24,7 @@ const mapping = {
   renameKikstarter: EditKikstarterForm,
   addContract: AddContractForm,
   addPledge: AddPledgeForm,
+  addProjectContract: AddProjectContractForm,
 };
 
 const Modal = () => {
