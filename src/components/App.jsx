@@ -14,6 +14,8 @@ import authContext from '../contexts/index.js';
 import MainPage from './MainPage.jsx';
 import Navbar from './Navbar.jsx';
 import KickstarterPage from './KickstarterPage.jsx';
+import ProjectPage from './ProjectPage.jsx';
+import AddProjectPage from './AddProjectPage.jsx';
 
 import useAuth from '../hooks/index.js';
 import routes from '../routes.js';
@@ -77,6 +79,8 @@ const App = () => (
             <MainPage />
           </PrivateRoute>
           <Route path={routes.kickstartersPagePath()} component={KickstarterPage} />
+          <Route path={`${routes.projectPath()}/new`} component={AddProjectPage} />
+          <Route path={routes.projectsPagePath()} component={ProjectPage} />
         </Switch>
       </div>
     </Router>

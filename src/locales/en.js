@@ -51,5 +51,14 @@ export default {
       userName: 'User',
       count: 'Count',
     },
+    project: {
+      addNew: {
+        setProjectTitle: 'Project title',
+        setProjectDescription: 'Description',
+        setProjectImage: 'Image',
+        setProjectPrice: 'Price',
+        setProjectFinishData: 'Finish date',
+      },
+    },
   },
 };

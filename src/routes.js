@@ -14,6 +14,8 @@ export default { // eslint-disable-line
   apiPath: () => apiPath,
   uploadImagePath: () => [apiPath, 'upload'].join('/'),
   kickstartersPagePath: () => '/kickstarters/:id',
+  projectsPagePath: () => '/projects/:id',
   pledgesPath: () => [apiPath, 'pledges'].join('/'),
   contractsPath: () => [apiPath, 'contracts'].join('/'),
+  projectPath: () => '/projects',
 };
