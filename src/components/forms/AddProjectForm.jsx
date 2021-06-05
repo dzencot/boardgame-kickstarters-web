@@ -2,7 +2,6 @@
 
 import React, { useRef, useEffect, useState } from 'react';
 import {
-  Modal as BootstrapModal,
   Form,
   Button,
 } from 'react-bootstrap';

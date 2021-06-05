@@ -1,11 +1,8 @@
 // @ts-check
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 
 import AddProjectForm from './forms/AddProjectForm.jsx';
 
-const AddProjectPage = () => {
-
-  return <AddProjectForm />;
-};
+const AddProjectPage = () => <AddProjectForm />;
 
 export default AddProjectPage;

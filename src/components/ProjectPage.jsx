@@ -7,7 +7,6 @@ import { useTranslation } from 'react-i18next';
 
 import Modal from './modals/Modal.jsx';
 import { actions } from '../slices/index.js';
-import routes from '../routes.js';
 import { getFetch } from '../lib/utils.js';
 import apiRoutes from '../apiRoutes.js';
 

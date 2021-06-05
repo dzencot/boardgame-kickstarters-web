@@ -26,7 +26,6 @@ const getValidationSchema = (kickstarters) => yup.object().shape({
     .trim()
     .required('modals.required')
     .min(3, 'modals.min')
-    .max(20, 'modals.max')
     .notOneOf(kickstarters, 'modals.uniq'),
 });
 
