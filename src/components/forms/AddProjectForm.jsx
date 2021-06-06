@@ -70,7 +70,7 @@ const AddProjectForm = ({ handleClose }) => {
 
         log('project.create', data);
         dispatch(actions.addProject({ project: data }));
-        history.replace(`${routes.projectPath()}/${data.id}`);
+        history.replace({ pathname: `${routes.projectPath()}/${data.id}` });
       } catch (e) {
         log('project.create.error', e);
         setSubmitting(false);

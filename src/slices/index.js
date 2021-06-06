@@ -7,6 +7,7 @@ import contractsInfo, { actions as contractsActions } from './contractsInfo.js';
 import pledgesInfo, { actions as pledgesActions } from './pledgesInfo.js';
 import projectsInfo, { actions as projectsActions } from './projectsInfo.js';
 import projectContractsInfo, { actions as projectContractsActions } from './projectContractsInfo.js';
+import foundedKickstartersInfo, { actions as foundedKickstartersActions } from './foundedKickstartersInfo.js';
 
 const actions = {
   ...modalActions,
@@ -15,6 +16,7 @@ const actions = {
   ...pledgesActions,
   ...projectsActions,
   ...projectContractsActions,
+  ...foundedKickstartersActions,
 };
 
 export {
@@ -28,4 +30,5 @@ export default combineReducers({
   pledgesInfo,
   projectsInfo,
   projectContractsInfo,
+  foundedKickstartersInfo,
 });

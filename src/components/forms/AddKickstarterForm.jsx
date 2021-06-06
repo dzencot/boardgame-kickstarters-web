@@ -10,15 +10,18 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 import { useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
+import { useHistory } from 'react-router-dom';
 // import axios from 'axios';
 
 import getLogger from '../../lib/logger.js';
 import { actions } from '../../slices/index.js';
 import routes from '../../routes.js';
+import apiRoutes from '../../apiRoutes.js';
 import { getFetch } from '../../lib/utils.js';
 import kickService from '../../lib/kickstarters.js';
 
 const log = getLogger('client');
+log.enabled = true;
 
 const getValidationSchema = (kickstarters) => yup.object().shape({
   name: yup
@@ -34,6 +37,7 @@ const AddKikstarterForm = ({ handleClose }) => {
   const inputRef = useRef(null);
   const dispatch = useDispatch();
   const { t } = useTranslation();
+  const history = useHistory();
 
   useEffect(() => {
     inputRef.current.focus();
@@ -57,13 +61,15 @@ const AddKikstarterForm = ({ handleClose }) => {
         // const parsedData = kickService.parseKickstartersJson(data);
         // const addedData = await kickService.uploadKickstarters(parsedData);
 
-        const { data } = await getFetch().post(routes.kickstartersPath(), kickstarter);
-        const { parsedData, uploadedData } = data;
-        await kickService.uploadResources(parsedData, uploadedData);
+        const { data } = await getFetch()
+          .post(apiRoutes.kickstartersSearchPath(), kickstarter);
+        // const { parsedData, uploadedData } = data;
+        // await kickService.uploadResources(parsedData, uploadedData);
 
         log('kickstarter.create', data);
-        dispatch(actions.addKickstarter({ kickstarter: uploadedData }));
+        dispatch(actions.setFoundedKickstarters({ foundedKickstarters: data }));
         handleClose();
+        history.replace({ pathname: `${routes.foundedKickstartersPage()}` });
       } catch (e) {
         console.log('kickstarter errr', e);
         log('kickstarter.create.error', e);

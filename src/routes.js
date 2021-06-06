@@ -3,6 +3,7 @@
 const apiPath = process.env.REACT_APP_API_URL;
 
 export default { // eslint-disable-line
+  mainPage: () => '/',
   loginPath: () => [apiPath, 'auth', 'local'].join('/'),
   signupPath: () => [apiPath, 'auth', 'local', 'register'].join('/'),
   dataPath: () => [apiPath, 'data'].join('/'),
@@ -18,4 +19,5 @@ export default { // eslint-disable-line
   pledgesPath: () => [apiPath, 'pledges'].join('/'),
   contractsPath: () => [apiPath, 'contracts'].join('/'),
   projectPath: () => '/projects',
+  foundedKickstartersPage: () => '/foundedKickstarters',
 };

@@ -16,6 +16,7 @@ import Navbar from './Navbar.jsx';
 import KickstarterPage from './KickstarterPage.jsx';
 import ProjectPage from './ProjectPage.jsx';
 import AddProjectPage from './AddProjectPage.jsx';
+import FoundedKickstartersPage from './FoundedKickstartersPage.jsx';
 
 import useAuth from '../hooks/index.js';
 import routes from '../routes.js';
@@ -81,6 +82,7 @@ const App = () => (
           <Route path={routes.kickstartersPagePath()} component={KickstarterPage} />
           <Route path={`${routes.projectPath()}/new`} component={AddProjectPage} />
           <Route path={routes.projectsPagePath()} component={ProjectPage} />
+          <Route path={routes.foundedKickstartersPage()} component={FoundedKickstartersPage} />
         </Switch>
       </div>
     </Router>
