@@ -63,7 +63,7 @@ const ProjectPage = (props) => {
   return (
     <div>
       <Modal />
-      <Image src={projectImageUrl} />
+      <Image src={projectImageUrl} className="kickstarter__image" />
       <div className="table-responsive-md table-striped">
         <div className="card-header text-white py-2 bg-success text-truncate">
           <h6 className="mb-0">{project.title}</h6>

@@ -5,6 +5,7 @@ import { Button, Image } from 'react-bootstrap';
 import Spinner from 'react-bootstrap/Spinner';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router-dom';
+import ReactPaginate from 'react-paginate';
 // import axios from 'axios';
 
 import Modal from './modals/Modal.jsx';
@@ -13,6 +14,11 @@ import routes from '../routes.js';
 import apiRoutes from '../apiRoutes.js';
 // import kickService from '../lib/kickstarters.js';
 import { getFetch } from '../lib/utils.js';
+
+import getLogger from '../lib/logger.js';
+
+const log = getLogger('MainPage');
+log.enabled = true;
 
 const Project = ({
   project,
@@ -97,7 +103,7 @@ const MainPage = () => {
   const [fetching, setFetching] = useState(true);
   const history = useHistory();
 
-  const { kickstarters } = useSelector((state) => state.kickstartersInfo);
+  const { kickstarters, currentPage } = useSelector((state) => state.kickstartersInfo);
   const { projects } = useSelector((state) => state.projectsInfo);
   // let kickstarters;
 
@@ -119,6 +125,14 @@ const MainPage = () => {
   //     });
   //   });
   // };
+
+  const pageCount = 10;
+
+  const handlePageClick = (event) => {
+    dispatch(actions.selectPage({ page: event.selected }));
+    log('handleClick', event);
+  };
+
 
   useEffect(() => {
     // NOTE this removes warning in tests https://github.com/facebook/react/issues/14369
@@ -186,6 +200,19 @@ const MainPage = () => {
               />
             ))}
           </div>
+          <ReactPaginate
+            previousLabel="previous"
+            nextLabel="next"
+            breakLabel="..."
+            breakClassName="break-me"
+            pageCount={pageCount}
+            marginPagesDisplayed={2}
+            pageRangeDisplayed={5}
+            initialPage={currentPage}
+            onPageChange={handlePageClick}
+            containerClassName="pagination"
+            activeClassName="active"
+          />
         </main>
       </>
     );

@@ -32,3 +32,10 @@ code {
     }
   }
 }
+
+.kickstarter {
+  &__image {
+    width: 560px;
+    height: 315px;
+  }
+}

@@ -126,7 +126,7 @@ const KickstarterPage = (props) => {
   return (
     <div>
       <Modal />
-      <Image src={kickImageUrl} />
+      <Image src={kickImageUrl} className="kickstarter__image" />
       <div className=" mb-2">
         <Button
           type="button"

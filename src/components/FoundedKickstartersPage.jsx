@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from 'react';
 import { Button, Image, ListGroup, Form, Pagination } from 'react-bootstrap';
-import ReactPaginate from 'react-paginate';
 import { useSelector, useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router-dom';
@@ -44,7 +43,7 @@ const FoundedKickstarter = (props) => {
 const FoundedKickstartersPage = () => {
   const { t } = useTranslation();
   const dispatch = useDispatch();
-  const { foundedKickstarters, currentPage } = useSelector((state) => state.foundedKickstartersInfo); // eslint-disable-line
+  const { foundedKickstarters } = useSelector((state) => state.foundedKickstartersInfo); // eslint-disable-line
   const history = useHistory();
 
   log('foundedKickstarters', foundedKickstarters);
@@ -66,29 +65,9 @@ const FoundedKickstartersPage = () => {
     history.replace({ pathname: `${routes.mainPage()}` });
   };
 
-  const pageCount = 10;
-
-  const handlePageClick = (event) => {
-    dispatch(actions.selectPage({ page: event.selected }));
-    log('handleClick', event);
-  };
-
   return (
     <>
       <Button onClick={addKickstarters}>{t('mainPage.addKickstarter')}</Button>
-      <ReactPaginate
-        previousLabel="previous"
-        nextLabel="next"
-        breakLabel="..."
-        breakClassName="break-me"
-        pageCount={pageCount}
-        marginPagesDisplayed={2}
-        pageRangeDisplayed={5}
-        initialPage={currentPage}
-        onPageChange={handlePageClick}
-        containerClassName="pagination"
-        activeClassName="active"
-      />
       <ListGroup variant="flush">
         {foundedKickstarters.map((kick) => (
           <FoundedKickstarter

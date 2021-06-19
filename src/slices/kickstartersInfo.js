@@ -8,6 +8,7 @@ const slice = createSlice({
   name: 'kickstartersInfo',
   initialState: {
     kickstarters: [],
+    currentPage: 0,
   },
   reducers: {
     setKickstarters: (state, { payload }) => {
@@ -21,6 +22,10 @@ const slice = createSlice({
     removeKikstarter: (state, { payload }) => {
       const { kickstarterId } = payload;
       remove(state.kickstarters, ({ id }) => id === kickstarterId);
+    },
+    selectPage: (state, { payload }) => {
+      const { page } = payload;
+      state.currentPage = page;
     },
   },
 });
