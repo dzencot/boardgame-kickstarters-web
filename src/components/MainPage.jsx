@@ -38,7 +38,7 @@ const Project = ({
             <Image src={previewUrl} className="main__project_preview-image" />
           </div>
           <div>
-            <span>INFO</span>
+            <span>{project.description}</span>
           </div>
         </div>
         <div className="d-flex pb-2">
@@ -75,7 +75,7 @@ const Kickstarter = ({
             <Image src={previewUrl} className="main__project_preview-image" />
           </div>
           <div>
-            <span>INFO</span>
+            <span>{kickstarter.description}</span>
           </div>
         </div>
         <div className="d-flex pb-2">
