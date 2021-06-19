@@ -63,7 +63,15 @@ const ProjectPage = (props) => {
   return (
     <div>
       <Modal />
-      <Image src={projectImageUrl} className="kickstarter__image" />
+      <div className="d-flex">
+        <Image src={projectImageUrl} className="kickstarter__image" />
+        <div>
+          <h4>
+            {project.title}
+          </h4>
+          <span>{project.description}</span>
+        </div>
+      </div>
       <div className="table-responsive-md table-striped">
         <div className="card-header text-white py-2 bg-success text-truncate">
           <h6 className="mb-0">{project.title}</h6>

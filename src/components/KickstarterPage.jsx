@@ -92,7 +92,13 @@ const KickstarterPage = (props) => {
   const { id } = props.match.params; // eslint-disable-line
   const dispatch = useDispatch();
   const [fetching, setFetching] = useState(true); // eslint-disable-line
-  const { kickstarter } = useSelector((state) => state.contractsInfo);
+  const kickstarter = useSelector((state) => {
+    const kick = state.contractsInfo.kickstarter;
+    if (kick?.json) {
+      return { ...kick, json: JSON.parse(kick.json) };
+    }
+    return kick;
+  });
   const kickImageUrl = `${routes.apiPath()}${kickstarter?.image_full?.url}`;
 
   useEffect(() => {
@@ -126,7 +132,15 @@ const KickstarterPage = (props) => {
   return (
     <div>
       <Modal />
-      <Image src={kickImageUrl} className="kickstarter__image" />
+      <div className="d-flex">
+        <Image src={kickImageUrl} className="kickstarter__image" />
+        <div>
+          <h4>
+            {kickstarter.title}
+          </h4>
+          <span>{kickstarter.json?.blurb}</span>
+        </div>
+      </div>
       <div className=" mb-2">
         <Button
           type="button"
