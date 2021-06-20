@@ -11,7 +11,7 @@ const Navbar = () => {
   const { t } = useTranslation();
   return (
     <BootstrapNavbar bg="light" expand="lg" className="mb-3">
-      <BootstrapNavbar.Brand as={Link} to="/" className="mr-auto">{t('mainPage.title')}</BootstrapNavbar.Brand>
+      <BootstrapNavbar.Brand as={Link} to="/?page=0" className="mr-auto">{t('mainPage.title')}</BootstrapNavbar.Brand>
       {!!user && <Button className="bg-success" onClick={logOut}>{t('logout')}</Button>}
     </BootstrapNavbar>
   );

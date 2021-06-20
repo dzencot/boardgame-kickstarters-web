@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Button, Image } from 'react-bootstrap';
 import Spinner from 'react-bootstrap/Spinner';
 import { useTranslation } from 'react-i18next';
-import { useHistory } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 import ReactPaginate from 'react-paginate';
 // import axios from 'axios';
 
@@ -16,6 +16,8 @@ import apiRoutes from '../apiRoutes.js';
 import { getFetch } from '../lib/utils.js';
 
 import getLogger from '../lib/logger.js';
+
+const PER_PAGE = 10;
 
 const log = getLogger('MainPage');
 log.enabled = true;
@@ -81,8 +83,6 @@ const Kickstarter = ({
         <div className="d-flex pb-2">
           <div className="pl-2">
             <span>
-              {kickstarter.start_date}
-              -
               {kickstarter.finish_date}
             </span>
           </div>
@@ -98,41 +98,33 @@ const Kickstarter = ({
 };
 
 const MainPage = () => {
+  const query = new URLSearchParams(useLocation().search);
+  // query.get('page');
   const dispatch = useDispatch();
   const { t } = useTranslation();
   const [fetching, setFetching] = useState(true);
+  const [currentPage, setCurrentPage] = useState(query.get('page') || 0);
   const history = useHistory();
 
-  const { kickstarters, currentPage } = useSelector((state) => state.kickstartersInfo);
-  const { projects } = useSelector((state) => state.projectsInfo);
-  // let kickstarters;
+  const { kickstarters, allCount: kickstartersCount } =
+    useSelector((state) => state.kickstartersInfo);
+  const { projects, allCount: projectsCount } = useSelector((state) => state.projectsInfo);
+  const allCount = kickstartersCount + projectsCount;
+  const pageCount = Math.ceil(allCount / PER_PAGE);
+  const offset = parseInt(currentPage, 10) * PER_PAGE;
 
   const handleAddKickstarter = () => {
     dispatch(actions.openModal({ type: 'addKikstarter' }));
   };
-  // const handleRemoveKikstarter = (kickstarterId) => () => {
-  //   dispatch(actions.openModal({ type: 'removeKikstarter', extra: { kickstarterId } }));
-  // };
-  // const handleEditKikstarter = (kickstarterId) => () => {
-  //   dispatch(actions.openModal({ type: 'editKikstarter', extra: { kickstarterId } }));
-  // };
-
-  // const handleAddKickstarters = () => {
-  //   axios.get('/boardgames.json').then((boardgamesData) => {
-  //     const parsed = kickService.parseKickstartersJson(boardgamesData.data);
-  //     kickService.uploadResources(parsed).then((result) => {
-  //       console.log(result);
-  //     });
-  //   });
-  // };
-
-  const pageCount = 10;
 
   const handlePageClick = (event) => {
-    dispatch(actions.selectPage({ page: event.selected }));
-    log('handleClick', event);
+    log('click page', event);
+    history.push({
+      pathname: routes.mainPage(),
+      search: `?page=${event.selected}`,
+    });
+    setCurrentPage(event.selected);
   };
-
 
   useEffect(() => {
     // NOTE this removes warning in tests https://github.com/facebook/react/issues/14369
@@ -140,11 +132,23 @@ const MainPage = () => {
     let didMount = true;
     const fetchData = async () => {
       try {
-        const { data } = await getFetch().get(routes.kickstartersPath());
-        dispatch(actions.setKickstarters({ kickstarters: data }));
+        const kickUrl = `${routes.kickstartersPath()}?_limit=${PER_PAGE / 2}&_start=${(PER_PAGE / 2) * currentPage}`;
+        const [kickResponse, countResponse] = await Promise.all([
+          getFetch().get(kickUrl),
+          getFetch().get(`${routes.kickstartersPath()}/count`),
+        ]);
+        const kickData = kickResponse.data;
+        dispatch(actions.setKickstarters({ kickstarters: kickData, allCount: countResponse.data }));
 
-        const projectData = await getFetch().get(apiRoutes.projectPath());
-        dispatch(actions.setProjects({ projects: projectData.data }));
+        const projectsUrl = `${apiRoutes.projectPath()}?_limit=${PER_PAGE / 2}&_start=${(PER_PAGE / 2) * currentPage}`;
+        const [projectResponse, countProjectsResponse] = await Promise.all([
+          getFetch().get(projectsUrl),
+          getFetch().get(`${apiRoutes.projectPath()}/count`),
+        ]);
+        dispatch(actions.setProjects({
+          projects: projectResponse.data,
+          allCount: countProjectsResponse.data,
+        }));
         if (didMount) setFetching(false);
       } catch (err) {
         if (!err.isAxiosError) {
@@ -159,7 +163,7 @@ const MainPage = () => {
     fetchData();
 
     return () => { didMount = false; };
-  }, [dispatch, history]);
+  }, [currentPage]);
 
   return fetching
     ? (
@@ -200,19 +204,27 @@ const MainPage = () => {
               />
             ))}
           </div>
-          <ReactPaginate
-            previousLabel="previous"
-            nextLabel="next"
-            breakLabel="..."
-            breakClassName="break-me"
-            pageCount={pageCount}
-            marginPagesDisplayed={2}
-            pageRangeDisplayed={5}
-            initialPage={currentPage}
-            onPageChange={handlePageClick}
-            containerClassName="pagination"
-            activeClassName="active"
-          />
+          <div className="row d-flex justify-content-center">
+            <ReactPaginate
+              previousLabel="previous"
+              nextLabel="next"
+              breakLabel="..."
+              breakClassName="break-me"
+              pageCount={pageCount}
+              marginPagesDisplayed={2}
+              pageRangeDisplayed={5}
+              initialPage={parseInt(currentPage, 10)}
+              onPageChange={handlePageClick}
+              containerClassName="pagination"
+              activeClassName="active"
+              pageClassName="page-item"
+              nextClassName="page-item"
+              pageLinkClassName="page-link"
+              previousClassName="page-item"
+              previousLinkClassName="page-link"
+              nextLinkClassName="page-link"
+            />
+          </div>
         </main>
       </>
     );

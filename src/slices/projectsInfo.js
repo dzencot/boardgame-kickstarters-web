@@ -8,11 +8,13 @@ const slice = createSlice({
   name: 'projectsInfo',
   initialState: {
     projects: [],
+    allCount: 0,
   },
   reducers: {
     setProjects: (state, { payload }) => {
-      const { projects } = payload;
+      const { projects, allCount } = payload;
       state.projects = projects;
+      state.allCount = allCount;
     },
     addProject: (state, { payload }) => {
       const { project } = payload;

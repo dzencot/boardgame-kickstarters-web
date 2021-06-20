@@ -8,12 +8,13 @@ const slice = createSlice({
   name: 'kickstartersInfo',
   initialState: {
     kickstarters: [],
-    currentPage: 0,
+    allCount: 0,
   },
   reducers: {
     setKickstarters: (state, { payload }) => {
-      const { kickstarters } = payload;
+      const { kickstarters, allCount } = payload;
       state.kickstarters = kickstarters;
+      state.allCount = allCount;
     },
     addKickstarter: (state, { payload }) => {
       const { kickstarter } = payload;
@@ -22,10 +23,6 @@ const slice = createSlice({
     removeKikstarter: (state, { payload }) => {
       const { kickstarterId } = payload;
       remove(state.kickstarters, ({ id }) => id === kickstarterId);
-    },
-    selectPage: (state, { payload }) => {
-      const { page } = payload;
-      state.currentPage = page;
     },
   },
 });
